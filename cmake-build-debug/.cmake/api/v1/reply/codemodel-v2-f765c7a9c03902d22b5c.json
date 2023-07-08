@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "advent_of_code::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-advent_of_code-Debug-f8ca16dc1128b7df7c54.json",
-					"name" : "advent_of_code",
+					"id" : "2015_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2015_01-Debug-10aed21706fa5b44c951.json",
+					"name" : "2015_01",
 					"projectIndex" : 0
 				}
 			]
