@@ -172,6 +172,39 @@ build 2020_01.exe: CXX_EXECUTABLE_LINKER__2020_01_Debug CMakeFiles/2020_01.dir/2
   TARGET_IMPLIB = lib2020_01.dll.a
   TARGET_PDB = 2020_01.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2021_01
+
+
+#############################################
+# Order-only phony target for 2021_01
+
+build cmake_object_order_depends_target_2021_01: phony || CMakeFiles/2021_01.dir
+
+build CMakeFiles/2021_01.dir/2021/Day1/Day1.cpp.obj: CXX_COMPILER__2021_01_Debug C$:/Users/Acer/Desktop/advent-of-code/2021/Day1/Day1.cpp || cmake_object_order_depends_target_2021_01
+  DEP_FILE = CMakeFiles\2021_01.dir\2021\Day1\Day1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2021_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\2021_01.dir\2021\Day1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2021_01
+
+
+#############################################
+# Link the executable 2021_01.exe
+
+build 2021_01.exe: CXX_EXECUTABLE_LINKER__2021_01_Debug CMakeFiles/2021_01.dir/2021/Day1/Day1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2021_01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2021_01.exe
+  TARGET_IMPLIB = lib2021_01.dll.a
+  TARGET_PDB = 2021_01.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build 2019_01: phony 2019_01.exe
 
 build 2020_01: phony 2020_01.exe
 
+build 2021_01: phony 2021_01.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build 2020_01: phony 2020_01.exe
 #############################################
 # Folder: C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug
 
-build all: phony 2015_01.exe 2017_01.exe 2019_01.exe 2020_01.exe
+build all: phony 2015_01.exe 2017_01.exe 2019_01.exe 2020_01.exe 2021_01.exe
 
 # =============================================================================
 # Built-in targets
