@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "advent_of_code",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "2015_01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2015_01-Debug-10aed21706fa5b44c951.json",
 					"name" : "2015_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2017_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2017_01-Debug-7de8e6a39cf52f461c13.json",
+					"name" : "2017_01",
 					"projectIndex" : 0
 				}
 			]
