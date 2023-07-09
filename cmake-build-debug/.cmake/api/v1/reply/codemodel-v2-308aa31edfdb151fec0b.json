@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "2017_01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2017_01-Debug-7de8e6a39cf52f461c13.json",
 					"name" : "2017_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2019_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2019_01-Debug-95ad5eb645db18a74bf0.json",
+					"name" : "2019_01",
 					"projectIndex" : 0
 				}
 			]
