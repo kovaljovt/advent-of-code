@@ -1,5 +1,6 @@
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2015_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2017_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2019_01.dir
+C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2020_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
