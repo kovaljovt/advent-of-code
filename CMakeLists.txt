@@ -14,3 +14,5 @@ add_executable(2019_01 2019/Day1/Day1.cpp)
 add_executable(2020_01 2020/Day1/Day1.cpp)
 
 add_executable(2021_01 2021/Day1/Day1.cpp)
+
+add_executable(2022_01 2022/Day1/Day1.cpp)
