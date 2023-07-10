@@ -7,5 +7,6 @@ C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2019_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2020_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2021_01.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2022_01.dir
+C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2022_02.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

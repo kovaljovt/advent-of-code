@@ -337,6 +337,39 @@ build 2022_01.exe: CXX_EXECUTABLE_LINKER__2022_01_Debug CMakeFiles/2022_01.dir/2
   TARGET_IMPLIB = lib2022_01.dll.a
   TARGET_PDB = 2022_01.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2022_02
+
+
+#############################################
+# Order-only phony target for 2022_02
+
+build cmake_object_order_depends_target_2022_02: phony || CMakeFiles/2022_02.dir
+
+build CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.obj: CXX_COMPILER__2022_02_Debug C$:/Users/Acer/Desktop/advent-of-code/2022/Day02/Day02.cpp || cmake_object_order_depends_target_2022_02
+  DEP_FILE = CMakeFiles\2022_02.dir\2022\Day02\Day02.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2022_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\2022_02.dir\2022\Day02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2022_02
+
+
+#############################################
+# Link the executable 2022_02.exe
+
+build 2022_02.exe: CXX_EXECUTABLE_LINKER__2022_02_Debug CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2022_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2022_02.exe
+  TARGET_IMPLIB = lib2022_02.dll.a
+  TARGET_PDB = 2022_02.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -381,6 +414,8 @@ build 2021_01: phony 2021_01.exe
 
 build 2022_01: phony 2022_01.exe
 
+build 2022_02: phony 2022_02.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -389,7 +424,7 @@ build 2022_01: phony 2022_01.exe
 #############################################
 # Folder: C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug
 
-build all: phony 2015_01.exe 2016_01.exe 2017_01.exe 2018_01.exe 2018_02.exe 2019_01.exe 2020_01.exe 2021_01.exe 2022_01.exe
+build all: phony 2015_01.exe 2016_01.exe 2017_01.exe 2018_01.exe 2018_02.exe 2019_01.exe 2020_01.exe 2021_01.exe 2022_01.exe 2022_02.exe
 
 # =============================================================================
 # Built-in targets
