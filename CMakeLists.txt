@@ -10,6 +10,7 @@ add_executable(2016_01 2016/Day01/Day01.cpp)
 add_executable(2017_01 2017/Day1/Day1.cpp)
 
 add_executable(2018_01 2018/Day1/Day1.cpp)
+add_executable(2018_02 2018/Day2/Day2.cpp)
 
 add_executable(2019_01 2019/Day1/Day1.cpp)
 
