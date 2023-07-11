@@ -30,6 +30,7 @@ int part1() {
 
 	int priority = 1;
 	std::string alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	for(const auto& character : alphabet) {
 		letterPriority[character] = priority;
 		priority++;
@@ -59,5 +60,34 @@ int part2() {
 		data.push_back(line);
 	}
 
-	return 0;
+	int result = 0;
+	std::unordered_map<char, int> letterPriority = {};
+	std::string alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+	int j = 3;
+	for (int i = 0; i < data.size(); i += 3) {
+		std::vector<std::string> rucksacks = {};
+		for (int k = i; k < j; k++) {
+			if (k < data.size()) {
+				rucksacks.push_back(data[k]);
+			}
+		}
+		j += 3;
+
+		for (const auto& character: alphabet) {
+			bool foundInAllRucksacks = true;
+			for (const auto& rucksack: rucksacks) {
+				if (rucksack.find(character) == std::string::npos) {
+					foundInAllRucksacks = false;
+					break;
+				}
+			}
+
+			if (foundInAllRucksacks) {
+				result += letterPriority[character];
+			}
+		}
+	}
+
+	return result;
 }
