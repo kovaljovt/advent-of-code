@@ -3,7 +3,7 @@ project(advent_of_code)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(2015_01 2015/Day01/Day01.cpp)
+add_executable(2015_01 2015/Day01/Day01.cpp 2019/Day02/Day02.cpp)
 add_executable(2015_02 2015/Day02/Day02.cpp)
 
 add_executable(2016_01 2016/Day01/Day01.cpp)
@@ -15,6 +15,7 @@ add_executable(2018_01 2018/Day01/Day01.cpp)
 add_executable(2018_02 2018/Day02/Day02.cpp)
 
 add_executable(2019_01 2019/Day01/Day01.cpp)
+add_executable(2019_02 2019/Day02/Day02.cpp)
 
 add_executable(2020_01 2020/Day01/Day01.cpp)
 add_executable(2020_02 2020/Day02/Day02.cpp)
