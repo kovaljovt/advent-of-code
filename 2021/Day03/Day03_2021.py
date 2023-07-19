@@ -35,4 +35,6 @@ def part2():
     with open("Day03.txt") as file:
         data = [x for x in file.read().strip().split('\n')]
 
+
+
 main()
