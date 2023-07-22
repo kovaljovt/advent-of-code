@@ -682,6 +682,12 @@ build 2022_04.exe: CXX_EXECUTABLE_LINKER__2022_04_Debug CMakeFiles/2022_04.dir/2
 
 build cmake_object_order_depends_target_2022_12: phony || CMakeFiles/2022_12.dir
 
+build CMakeFiles/2022_12.dir/2022/Day12/main.cpp.obj: CXX_COMPILER__2022_12_Debug C$:/Users/Acer/Desktop/advent-of-code/2022/Day12/main.cpp || cmake_object_order_depends_target_2022_12
+  DEP_FILE = CMakeFiles\2022_12.dir\2022\Day12\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2022_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\2022_12.dir\2022\Day12
+
 build CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.obj: CXX_COMPILER__2022_12_Debug C$:/Users/Acer/Desktop/advent-of-code/2022/Day12/Day12.cpp || cmake_object_order_depends_target_2022_12
   DEP_FILE = CMakeFiles\2022_12.dir\2022\Day12\Day12.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -696,7 +702,7 @@ build CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.obj: CXX_COMPILER__2022_12_Deb
 #############################################
 # Link the executable 2022_12.exe
 
-build 2022_12.exe: CXX_EXECUTABLE_LINKER__2022_12_Debug CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.obj
+build 2022_12.exe: CXX_EXECUTABLE_LINKER__2022_12_Debug CMakeFiles/2022_12.dir/2022/Day12/main.cpp.obj CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2022_12.dir
