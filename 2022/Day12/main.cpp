@@ -1,12 +1,10 @@
 #include "Day12.h"
 
 int main() {
-	Day12 solver(Solution::part1);
-	std::string filePath = R"(C:\Users\Acer\Desktop\advent-of-code\2022\Day12\Day12.txt)";
-
-	std::cout << solver.solve(filePath) << '\n';
-	solver.solution = Solution::part2;
-	std::cout << solver.solve(filePath) << '\n';
-
+	Day12 solver;
+	int part1 = solver.solve(Solution::part1);
+	int part2 = solver.solve(Solution::part2);
+	std::cout << part1 << '\n';
+	std::cout << part2 << '\n';
 	return 0;
 }

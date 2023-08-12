@@ -1,27 +1,26 @@
 #include "Day12.h"
 
-Day12::Day12(Solution sol) : solution{ sol } {}
+Day12::Day12() {};
 
-void Day12::readInputFromFile(const std::string &filePath, std::vector<std::string> &data) {
-	std::ifstream input(filePath);
+std::vector<std::string> Day12::readInputFromFile(const std::string &filePath) {
+	std::fstream input(filePath);
+	std::vector<std::string> data = {};
 	std::string line;
-
 	while (std::getline(input, line)) {
 		data.push_back(line);
 	}
+	return data;
 }
 
 bool Day12::inBounds(const Coords &point, const std::vector<std::string> &data) {
 	return point.x >= 0 && point.y >= 0 && point.x < data.size() && point.y < data[0].size();
 }
 
-int Day12::solve(const std::string &filePath) {
-	std::vector<std::string> data;
-	readInputFromFile(filePath, data);
+int Day12::solve(Solution solution) {
+	std::vector<std::string> data = readInputFromFile(R"(C:\Users\Acer\Desktop\drawer\programming\cpp\advent-of-code\2022\Day12\Day12.txt)");
 
-	Coords start{};
-	Coords end{};
-
+	Coords start {};
+	Coords end {};
 	for (int i = 0; i < data.size(); i++) {
 		for (int j = 0; j < data[i].size(); j++) {
 			if (data[i][j] == 'S') {
@@ -48,13 +47,9 @@ int Day12::solve(const std::string &filePath) {
 			Coords{0, -1, 0}
 	};
 
-	std::vector<std::vector<bool>> visited(
-			data.size(),
-			std::vector<bool>(data[0].size(), false)
-	);
+	std::vector<std::vector<bool>> visited(data.size(), std::vector<bool>(data[0].size(), false));
 
-	std::queue<Coords> coords = {};
-
+	std::queue<Coords> coords;
 	if (solution == Solution::part1) {
 		coords.push(start);
 	}
@@ -72,14 +67,13 @@ int Day12::solve(const std::string &filePath) {
 
 		if (solution == Solution::part1) {
 			if (currentCoord.x == end.x && currentCoord.y == end.y) { return currentCoord.steps; }
-		}
-		else {
+		} else {
 			if (data[currentCoord.x][currentCoord.y] == 'a') {
 				return currentCoord.steps;
 			}
 		}
 
-		for (const Coords &dir : directions) {
+		for (const Coords &dir: directions) {
 			const Coords newPoint = Coords{
 					.x = currentCoord.x + dir.x,
 					.y = currentCoord.y + dir.y,
@@ -90,8 +84,7 @@ int Day12::solve(const std::string &filePath) {
 			if (visited[newPoint.x][newPoint.y]) { continue; }
 			if (solution == Solution::part1) {
 				if ((data[currentCoord.x][currentCoord.y] + 1) < (data[newPoint.x][newPoint.y])) { continue; }
-			}
-			else {
+			} else {
 				if ((data[currentCoord.x][currentCoord.y]) > (data[newPoint.x][newPoint.y]) + 1) { continue; }
 			}
 
@@ -101,3 +94,5 @@ int Day12::solve(const std::string &filePath) {
 
 	return 0;
 }
+
+

@@ -247,12 +247,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Acer/Desktop/advent-of-code/cmake-build-debug",
-		"source" : "C:/Users/Acer/Desktop/advent-of-code"
+		"build" : "C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug",
+		"source" : "C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

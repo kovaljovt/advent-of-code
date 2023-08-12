@@ -1,5 +1,5 @@
-#ifndef ADVENT_OF_CODE_DAY12_H
-#define ADVENT_OF_CODE_DAY12_H
+#ifndef ADVENTP_DAY12_H
+#define ADVENTP_DAY12_H
 
 #include <iostream>
 #include <vector>
@@ -19,17 +19,15 @@ struct Coords {
 };
 
 class Day12 {
-public:
-	Solution solution = {};
-
-	Day12(Solution sol);
-
-	void readInputFromFile(const std::string &filePath, std::vector<std::string> &data);
-
-	int solve(const std::string &filePath);
-
 private:
 	bool inBounds(const Coords &point, const std::vector<std::string> &data);
+
+public:
+	Day12();
+
+	std::vector<std::string> readInputFromFile(const std::string &filePath);
+
+	int solve(Solution solution);
 };
 
 #endif
