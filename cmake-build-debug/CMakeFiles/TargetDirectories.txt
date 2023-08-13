@@ -21,6 +21,7 @@ C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CM
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_02.dir
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_03.dir
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_04.dir
+C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_06.dir
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_12.dir
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

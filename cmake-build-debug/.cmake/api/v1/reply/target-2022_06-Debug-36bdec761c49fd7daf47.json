@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "2022_12.exe"
+			"path" : "2022_06.exe"
 		},
 		{
-			"path" : "2022_12.pdb"
+			"path" : "2022_06.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "2022_12::@6890427a1f51a3e7e1df",
+	"id" : "2022_06::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "2022_12",
-	"nameOnDisk" : "2022_12.exe",
+	"name" : "2022_06",
+	"nameOnDisk" : "2022_06.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,15 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				2
+				0
 			]
 		}
 	],
@@ -107,19 +98,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "2022/Day12/main.cpp",
+			"path" : "2022/Day06/Day06.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "2022/Day12/Day12.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "2022/Day12/Day12.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
