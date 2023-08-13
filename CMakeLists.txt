@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(2015_01 2015/Day01/Day01.cpp)
 add_executable(2015_02 2015/Day02/Day02.cpp)
 add_executable(2015_03 2015/Day03/Day03.cpp)
+add_executable(2015_09 2015/Day09/main.cpp 2015/Day09/Day09.h 2015/Day09/Day09.cpp)
 
 add_executable(2016_01 2016/Day01/Day01.cpp)
 add_executable(2016_02 2016/Day02/Day02.cpp)
