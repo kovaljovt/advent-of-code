@@ -91,7 +91,6 @@ int Day12::solve(Solution solution) {
 			coords.push(newPoint);
 		}
 	}
-
 	return 0;
 }
 
