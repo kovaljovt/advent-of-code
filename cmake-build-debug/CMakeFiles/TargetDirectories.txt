@@ -1,27 +1,28 @@
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2015_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2015_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2015_03.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2015_09.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2016_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2016_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2016_03.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2017_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2017_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2018_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2018_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2019_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2019_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2020_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2020_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2020_03.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2021_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2021_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2021_03.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_01.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_02.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_03.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_04.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_06.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/2022_12.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Acer/Desktop/drawer/programming/cpp/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2015_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2015_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2015_03.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2015_09.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2016_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2016_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2016_03.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2017_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2017_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2018_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2018_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2019_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2019_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2020_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2020_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2020_03.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2020_06.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2021_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2021_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2021_03.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_01.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_02.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_03.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_04.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_06.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/2022_12.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
