@@ -16,8 +16,8 @@ bool Day12::inBounds(const Coords &point, const std::vector<std::string> &data) 
 	return point.x >= 0 && point.y >= 0 && point.x < data.size() && point.y < data[0].size();
 }
 
-int Day12::solve(Solution solution) {
-	std::vector<std::string> data = readInputFromFile(R"(C:\Users\Acer\Desktop\drawer\programming\cpp\advent-of-code\2022\Day12\Day12.txt)");
+int Day12::solve(Solution solution, const std::string &path) {
+	std::vector<std::string> data = readInputFromFile(path);
 
 	Coords start {};
 	Coords end {};

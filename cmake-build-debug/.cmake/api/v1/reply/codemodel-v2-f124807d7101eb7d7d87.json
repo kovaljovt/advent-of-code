@@ -52,7 +52,7 @@
 					[
 						0
 					],
-					"name" : "advent_of_code",
+					"name" : "advent",
 					"targetIndexes" : 
 					[
 						0,
@@ -274,8 +274,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug",
-		"source" : "/home/tibor/Desktop/advent of code/advent-of-code"
+		"build" : "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug",
+		"source" : "/home/tibor/Desktop/advent of code/cpp"
 	},
 	"version" : 
 	{

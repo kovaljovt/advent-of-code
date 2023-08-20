@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: advent_of_code
+# Project: advent
 # Configurations: Debug
 # =============================================================================
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/tibor/Desktop/advent$ of$ code/advent-of-code/cmake-build-debug/
+cmake_ninja_workdir = /home/tibor/Desktop/advent$ of$ code/cpp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 2015_01
 
@@ -49,13 +49,11 @@ cmake_ninja_workdir = /home/tibor/Desktop/advent$ of$ code/advent-of-code/cmake-
 
 build cmake_object_order_depends_target_2015_01: phony || CMakeFiles/2015_01.dir
 
-build CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o: CXX_COMPILER__2015_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2015/Day01/Day01.cpp || cmake_object_order_depends_target_2015_01
+build CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o: CXX_COMPILER__2015_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2015/Day01/Day01.cpp || cmake_object_order_depends_target_2015_01
   DEP_FILE = CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2015_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2015_01.dir/2015/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2015_01.dir/
-  TARGET_PDB = 2015_01.pdb
 
 
 # =============================================================================
@@ -70,9 +68,8 @@ build 2015_01: CXX_EXECUTABLE_LINKER__2015_01_Debug CMakeFiles/2015_01.dir/2015/
   OBJECT_DIR = CMakeFiles/2015_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2015_01.dir/
   TARGET_FILE = 2015_01
-  TARGET_PDB = 2015_01.pdb
+  TARGET_PDB = 2015_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2015_02
@@ -83,13 +80,11 @@ build 2015_01: CXX_EXECUTABLE_LINKER__2015_01_Debug CMakeFiles/2015_01.dir/2015/
 
 build cmake_object_order_depends_target_2015_02: phony || CMakeFiles/2015_02.dir
 
-build CMakeFiles/2015_02.dir/2015/Day02/Day02.cpp.o: CXX_COMPILER__2015_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2015/Day02/Day02.cpp || cmake_object_order_depends_target_2015_02
+build CMakeFiles/2015_02.dir/2015/Day02/Day02.cpp.o: CXX_COMPILER__2015_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2015/Day02/Day02.cpp || cmake_object_order_depends_target_2015_02
   DEP_FILE = CMakeFiles/2015_02.dir/2015/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2015_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2015_02.dir/2015/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2015_02.dir/
-  TARGET_PDB = 2015_02.pdb
 
 
 # =============================================================================
@@ -104,9 +99,8 @@ build 2015_02: CXX_EXECUTABLE_LINKER__2015_02_Debug CMakeFiles/2015_02.dir/2015/
   OBJECT_DIR = CMakeFiles/2015_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2015_02.dir/
   TARGET_FILE = 2015_02
-  TARGET_PDB = 2015_02.pdb
+  TARGET_PDB = 2015_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2015_03
@@ -117,13 +111,11 @@ build 2015_02: CXX_EXECUTABLE_LINKER__2015_02_Debug CMakeFiles/2015_02.dir/2015/
 
 build cmake_object_order_depends_target_2015_03: phony || CMakeFiles/2015_03.dir
 
-build CMakeFiles/2015_03.dir/2015/Day03/Day03.cpp.o: CXX_COMPILER__2015_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2015/Day03/Day03.cpp || cmake_object_order_depends_target_2015_03
+build CMakeFiles/2015_03.dir/2015/Day03/Day03.cpp.o: CXX_COMPILER__2015_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2015/Day03/Day03.cpp || cmake_object_order_depends_target_2015_03
   DEP_FILE = CMakeFiles/2015_03.dir/2015/Day03/Day03.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2015_03.dir
   OBJECT_FILE_DIR = CMakeFiles/2015_03.dir/2015/Day03
-  TARGET_COMPILE_PDB = CMakeFiles/2015_03.dir/
-  TARGET_PDB = 2015_03.pdb
 
 
 # =============================================================================
@@ -138,9 +130,8 @@ build 2015_03: CXX_EXECUTABLE_LINKER__2015_03_Debug CMakeFiles/2015_03.dir/2015/
   OBJECT_DIR = CMakeFiles/2015_03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2015_03.dir/
   TARGET_FILE = 2015_03
-  TARGET_PDB = 2015_03.pdb
+  TARGET_PDB = 2015_03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2015_09
@@ -151,21 +142,17 @@ build 2015_03: CXX_EXECUTABLE_LINKER__2015_03_Debug CMakeFiles/2015_03.dir/2015/
 
 build cmake_object_order_depends_target_2015_09: phony || CMakeFiles/2015_09.dir
 
-build CMakeFiles/2015_09.dir/2015/Day09/main.cpp.o: CXX_COMPILER__2015_09_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2015/Day09/main.cpp || cmake_object_order_depends_target_2015_09
+build CMakeFiles/2015_09.dir/2015/Day09/main.cpp.o: CXX_COMPILER__2015_09_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2015/Day09/main.cpp || cmake_object_order_depends_target_2015_09
   DEP_FILE = CMakeFiles/2015_09.dir/2015/Day09/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2015_09.dir
   OBJECT_FILE_DIR = CMakeFiles/2015_09.dir/2015/Day09
-  TARGET_COMPILE_PDB = CMakeFiles/2015_09.dir/
-  TARGET_PDB = 2015_09.pdb
 
-build CMakeFiles/2015_09.dir/2015/Day09/Day09.cpp.o: CXX_COMPILER__2015_09_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2015/Day09/Day09.cpp || cmake_object_order_depends_target_2015_09
+build CMakeFiles/2015_09.dir/2015/Day09/Day09.cpp.o: CXX_COMPILER__2015_09_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2015/Day09/Day09.cpp || cmake_object_order_depends_target_2015_09
   DEP_FILE = CMakeFiles/2015_09.dir/2015/Day09/Day09.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2015_09.dir
   OBJECT_FILE_DIR = CMakeFiles/2015_09.dir/2015/Day09
-  TARGET_COMPILE_PDB = CMakeFiles/2015_09.dir/
-  TARGET_PDB = 2015_09.pdb
 
 
 # =============================================================================
@@ -180,9 +167,8 @@ build 2015_09: CXX_EXECUTABLE_LINKER__2015_09_Debug CMakeFiles/2015_09.dir/2015/
   OBJECT_DIR = CMakeFiles/2015_09.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2015_09.dir/
   TARGET_FILE = 2015_09
-  TARGET_PDB = 2015_09.pdb
+  TARGET_PDB = 2015_09.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2016_01
@@ -193,13 +179,11 @@ build 2015_09: CXX_EXECUTABLE_LINKER__2015_09_Debug CMakeFiles/2015_09.dir/2015/
 
 build cmake_object_order_depends_target_2016_01: phony || CMakeFiles/2016_01.dir
 
-build CMakeFiles/2016_01.dir/2016/Day01/Day01.cpp.o: CXX_COMPILER__2016_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2016/Day01/Day01.cpp || cmake_object_order_depends_target_2016_01
+build CMakeFiles/2016_01.dir/2016/Day01/Day01.cpp.o: CXX_COMPILER__2016_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2016/Day01/Day01.cpp || cmake_object_order_depends_target_2016_01
   DEP_FILE = CMakeFiles/2016_01.dir/2016/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2016_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2016_01.dir/2016/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2016_01.dir/
-  TARGET_PDB = 2016_01.pdb
 
 
 # =============================================================================
@@ -214,9 +198,8 @@ build 2016_01: CXX_EXECUTABLE_LINKER__2016_01_Debug CMakeFiles/2016_01.dir/2016/
   OBJECT_DIR = CMakeFiles/2016_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2016_01.dir/
   TARGET_FILE = 2016_01
-  TARGET_PDB = 2016_01.pdb
+  TARGET_PDB = 2016_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2016_02
@@ -227,13 +210,11 @@ build 2016_01: CXX_EXECUTABLE_LINKER__2016_01_Debug CMakeFiles/2016_01.dir/2016/
 
 build cmake_object_order_depends_target_2016_02: phony || CMakeFiles/2016_02.dir
 
-build CMakeFiles/2016_02.dir/2016/Day02/Day02.cpp.o: CXX_COMPILER__2016_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2016/Day02/Day02.cpp || cmake_object_order_depends_target_2016_02
+build CMakeFiles/2016_02.dir/2016/Day02/Day02.cpp.o: CXX_COMPILER__2016_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2016/Day02/Day02.cpp || cmake_object_order_depends_target_2016_02
   DEP_FILE = CMakeFiles/2016_02.dir/2016/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2016_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2016_02.dir/2016/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2016_02.dir/
-  TARGET_PDB = 2016_02.pdb
 
 
 # =============================================================================
@@ -248,9 +229,8 @@ build 2016_02: CXX_EXECUTABLE_LINKER__2016_02_Debug CMakeFiles/2016_02.dir/2016/
   OBJECT_DIR = CMakeFiles/2016_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2016_02.dir/
   TARGET_FILE = 2016_02
-  TARGET_PDB = 2016_02.pdb
+  TARGET_PDB = 2016_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2016_03
@@ -261,13 +241,11 @@ build 2016_02: CXX_EXECUTABLE_LINKER__2016_02_Debug CMakeFiles/2016_02.dir/2016/
 
 build cmake_object_order_depends_target_2016_03: phony || CMakeFiles/2016_03.dir
 
-build CMakeFiles/2016_03.dir/2016/Day03/Day03.cpp.o: CXX_COMPILER__2016_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2016/Day03/Day03.cpp || cmake_object_order_depends_target_2016_03
+build CMakeFiles/2016_03.dir/2016/Day03/Day03.cpp.o: CXX_COMPILER__2016_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2016/Day03/Day03.cpp || cmake_object_order_depends_target_2016_03
   DEP_FILE = CMakeFiles/2016_03.dir/2016/Day03/Day03.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2016_03.dir
   OBJECT_FILE_DIR = CMakeFiles/2016_03.dir/2016/Day03
-  TARGET_COMPILE_PDB = CMakeFiles/2016_03.dir/
-  TARGET_PDB = 2016_03.pdb
 
 
 # =============================================================================
@@ -282,9 +260,8 @@ build 2016_03: CXX_EXECUTABLE_LINKER__2016_03_Debug CMakeFiles/2016_03.dir/2016/
   OBJECT_DIR = CMakeFiles/2016_03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2016_03.dir/
   TARGET_FILE = 2016_03
-  TARGET_PDB = 2016_03.pdb
+  TARGET_PDB = 2016_03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2017_01
@@ -295,13 +272,11 @@ build 2016_03: CXX_EXECUTABLE_LINKER__2016_03_Debug CMakeFiles/2016_03.dir/2016/
 
 build cmake_object_order_depends_target_2017_01: phony || CMakeFiles/2017_01.dir
 
-build CMakeFiles/2017_01.dir/2017/Day01/Day01.cpp.o: CXX_COMPILER__2017_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2017/Day01/Day01.cpp || cmake_object_order_depends_target_2017_01
+build CMakeFiles/2017_01.dir/2017/Day01/Day01.cpp.o: CXX_COMPILER__2017_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2017/Day01/Day01.cpp || cmake_object_order_depends_target_2017_01
   DEP_FILE = CMakeFiles/2017_01.dir/2017/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2017_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2017_01.dir/2017/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2017_01.dir/
-  TARGET_PDB = 2017_01.pdb
 
 
 # =============================================================================
@@ -316,9 +291,8 @@ build 2017_01: CXX_EXECUTABLE_LINKER__2017_01_Debug CMakeFiles/2017_01.dir/2017/
   OBJECT_DIR = CMakeFiles/2017_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2017_01.dir/
   TARGET_FILE = 2017_01
-  TARGET_PDB = 2017_01.pdb
+  TARGET_PDB = 2017_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2017_02
@@ -329,13 +303,11 @@ build 2017_01: CXX_EXECUTABLE_LINKER__2017_01_Debug CMakeFiles/2017_01.dir/2017/
 
 build cmake_object_order_depends_target_2017_02: phony || CMakeFiles/2017_02.dir
 
-build CMakeFiles/2017_02.dir/2017/Day02/Day02.cpp.o: CXX_COMPILER__2017_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2017/Day02/Day02.cpp || cmake_object_order_depends_target_2017_02
+build CMakeFiles/2017_02.dir/2017/Day02/Day02.cpp.o: CXX_COMPILER__2017_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2017/Day02/Day02.cpp || cmake_object_order_depends_target_2017_02
   DEP_FILE = CMakeFiles/2017_02.dir/2017/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2017_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2017_02.dir/2017/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2017_02.dir/
-  TARGET_PDB = 2017_02.pdb
 
 
 # =============================================================================
@@ -350,9 +322,8 @@ build 2017_02: CXX_EXECUTABLE_LINKER__2017_02_Debug CMakeFiles/2017_02.dir/2017/
   OBJECT_DIR = CMakeFiles/2017_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2017_02.dir/
   TARGET_FILE = 2017_02
-  TARGET_PDB = 2017_02.pdb
+  TARGET_PDB = 2017_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2018_01
@@ -363,13 +334,11 @@ build 2017_02: CXX_EXECUTABLE_LINKER__2017_02_Debug CMakeFiles/2017_02.dir/2017/
 
 build cmake_object_order_depends_target_2018_01: phony || CMakeFiles/2018_01.dir
 
-build CMakeFiles/2018_01.dir/2018/Day01/Day01.cpp.o: CXX_COMPILER__2018_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2018/Day01/Day01.cpp || cmake_object_order_depends_target_2018_01
+build CMakeFiles/2018_01.dir/2018/Day01/Day01.cpp.o: CXX_COMPILER__2018_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2018/Day01/Day01.cpp || cmake_object_order_depends_target_2018_01
   DEP_FILE = CMakeFiles/2018_01.dir/2018/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2018_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2018_01.dir/2018/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2018_01.dir/
-  TARGET_PDB = 2018_01.pdb
 
 
 # =============================================================================
@@ -384,9 +353,8 @@ build 2018_01: CXX_EXECUTABLE_LINKER__2018_01_Debug CMakeFiles/2018_01.dir/2018/
   OBJECT_DIR = CMakeFiles/2018_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2018_01.dir/
   TARGET_FILE = 2018_01
-  TARGET_PDB = 2018_01.pdb
+  TARGET_PDB = 2018_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2018_02
@@ -397,13 +365,11 @@ build 2018_01: CXX_EXECUTABLE_LINKER__2018_01_Debug CMakeFiles/2018_01.dir/2018/
 
 build cmake_object_order_depends_target_2018_02: phony || CMakeFiles/2018_02.dir
 
-build CMakeFiles/2018_02.dir/2018/Day02/Day02.cpp.o: CXX_COMPILER__2018_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2018/Day02/Day02.cpp || cmake_object_order_depends_target_2018_02
+build CMakeFiles/2018_02.dir/2018/Day02/Day02.cpp.o: CXX_COMPILER__2018_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2018/Day02/Day02.cpp || cmake_object_order_depends_target_2018_02
   DEP_FILE = CMakeFiles/2018_02.dir/2018/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2018_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2018_02.dir/2018/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2018_02.dir/
-  TARGET_PDB = 2018_02.pdb
 
 
 # =============================================================================
@@ -418,9 +384,8 @@ build 2018_02: CXX_EXECUTABLE_LINKER__2018_02_Debug CMakeFiles/2018_02.dir/2018/
   OBJECT_DIR = CMakeFiles/2018_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2018_02.dir/
   TARGET_FILE = 2018_02
-  TARGET_PDB = 2018_02.pdb
+  TARGET_PDB = 2018_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2019_01
@@ -431,13 +396,11 @@ build 2018_02: CXX_EXECUTABLE_LINKER__2018_02_Debug CMakeFiles/2018_02.dir/2018/
 
 build cmake_object_order_depends_target_2019_01: phony || CMakeFiles/2019_01.dir
 
-build CMakeFiles/2019_01.dir/2019/Day01/Day01.cpp.o: CXX_COMPILER__2019_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2019/Day01/Day01.cpp || cmake_object_order_depends_target_2019_01
+build CMakeFiles/2019_01.dir/2019/Day01/Day01.cpp.o: CXX_COMPILER__2019_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2019/Day01/Day01.cpp || cmake_object_order_depends_target_2019_01
   DEP_FILE = CMakeFiles/2019_01.dir/2019/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2019_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2019_01.dir/2019/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2019_01.dir/
-  TARGET_PDB = 2019_01.pdb
 
 
 # =============================================================================
@@ -452,9 +415,8 @@ build 2019_01: CXX_EXECUTABLE_LINKER__2019_01_Debug CMakeFiles/2019_01.dir/2019/
   OBJECT_DIR = CMakeFiles/2019_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2019_01.dir/
   TARGET_FILE = 2019_01
-  TARGET_PDB = 2019_01.pdb
+  TARGET_PDB = 2019_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2019_02
@@ -465,13 +427,11 @@ build 2019_01: CXX_EXECUTABLE_LINKER__2019_01_Debug CMakeFiles/2019_01.dir/2019/
 
 build cmake_object_order_depends_target_2019_02: phony || CMakeFiles/2019_02.dir
 
-build CMakeFiles/2019_02.dir/2019/Day02/Day02.cpp.o: CXX_COMPILER__2019_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2019/Day02/Day02.cpp || cmake_object_order_depends_target_2019_02
+build CMakeFiles/2019_02.dir/2019/Day02/Day02.cpp.o: CXX_COMPILER__2019_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2019/Day02/Day02.cpp || cmake_object_order_depends_target_2019_02
   DEP_FILE = CMakeFiles/2019_02.dir/2019/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2019_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2019_02.dir/2019/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2019_02.dir/
-  TARGET_PDB = 2019_02.pdb
 
 
 # =============================================================================
@@ -486,9 +446,8 @@ build 2019_02: CXX_EXECUTABLE_LINKER__2019_02_Debug CMakeFiles/2019_02.dir/2019/
   OBJECT_DIR = CMakeFiles/2019_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2019_02.dir/
   TARGET_FILE = 2019_02
-  TARGET_PDB = 2019_02.pdb
+  TARGET_PDB = 2019_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2020_01
@@ -499,13 +458,11 @@ build 2019_02: CXX_EXECUTABLE_LINKER__2019_02_Debug CMakeFiles/2019_02.dir/2019/
 
 build cmake_object_order_depends_target_2020_01: phony || CMakeFiles/2020_01.dir
 
-build CMakeFiles/2020_01.dir/2020/Day01/Day01.cpp.o: CXX_COMPILER__2020_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2020/Day01/Day01.cpp || cmake_object_order_depends_target_2020_01
+build CMakeFiles/2020_01.dir/2020/Day01/Day01.cpp.o: CXX_COMPILER__2020_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2020/Day01/Day01.cpp || cmake_object_order_depends_target_2020_01
   DEP_FILE = CMakeFiles/2020_01.dir/2020/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2020_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2020_01.dir/2020/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2020_01.dir/
-  TARGET_PDB = 2020_01.pdb
 
 
 # =============================================================================
@@ -520,9 +477,8 @@ build 2020_01: CXX_EXECUTABLE_LINKER__2020_01_Debug CMakeFiles/2020_01.dir/2020/
   OBJECT_DIR = CMakeFiles/2020_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2020_01.dir/
   TARGET_FILE = 2020_01
-  TARGET_PDB = 2020_01.pdb
+  TARGET_PDB = 2020_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2020_02
@@ -533,13 +489,11 @@ build 2020_01: CXX_EXECUTABLE_LINKER__2020_01_Debug CMakeFiles/2020_01.dir/2020/
 
 build cmake_object_order_depends_target_2020_02: phony || CMakeFiles/2020_02.dir
 
-build CMakeFiles/2020_02.dir/2020/Day02/Day02.cpp.o: CXX_COMPILER__2020_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2020/Day02/Day02.cpp || cmake_object_order_depends_target_2020_02
+build CMakeFiles/2020_02.dir/2020/Day02/Day02.cpp.o: CXX_COMPILER__2020_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2020/Day02/Day02.cpp || cmake_object_order_depends_target_2020_02
   DEP_FILE = CMakeFiles/2020_02.dir/2020/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2020_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2020_02.dir/2020/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2020_02.dir/
-  TARGET_PDB = 2020_02.pdb
 
 
 # =============================================================================
@@ -554,9 +508,8 @@ build 2020_02: CXX_EXECUTABLE_LINKER__2020_02_Debug CMakeFiles/2020_02.dir/2020/
   OBJECT_DIR = CMakeFiles/2020_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2020_02.dir/
   TARGET_FILE = 2020_02
-  TARGET_PDB = 2020_02.pdb
+  TARGET_PDB = 2020_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2020_03
@@ -567,13 +520,11 @@ build 2020_02: CXX_EXECUTABLE_LINKER__2020_02_Debug CMakeFiles/2020_02.dir/2020/
 
 build cmake_object_order_depends_target_2020_03: phony || CMakeFiles/2020_03.dir
 
-build CMakeFiles/2020_03.dir/2020/Day03/Day03.cpp.o: CXX_COMPILER__2020_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2020/Day03/Day03.cpp || cmake_object_order_depends_target_2020_03
+build CMakeFiles/2020_03.dir/2020/Day03/Day03.cpp.o: CXX_COMPILER__2020_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2020/Day03/Day03.cpp || cmake_object_order_depends_target_2020_03
   DEP_FILE = CMakeFiles/2020_03.dir/2020/Day03/Day03.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2020_03.dir
   OBJECT_FILE_DIR = CMakeFiles/2020_03.dir/2020/Day03
-  TARGET_COMPILE_PDB = CMakeFiles/2020_03.dir/
-  TARGET_PDB = 2020_03.pdb
 
 
 # =============================================================================
@@ -588,9 +539,8 @@ build 2020_03: CXX_EXECUTABLE_LINKER__2020_03_Debug CMakeFiles/2020_03.dir/2020/
   OBJECT_DIR = CMakeFiles/2020_03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2020_03.dir/
   TARGET_FILE = 2020_03
-  TARGET_PDB = 2020_03.pdb
+  TARGET_PDB = 2020_03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2020_06
@@ -601,13 +551,11 @@ build 2020_03: CXX_EXECUTABLE_LINKER__2020_03_Debug CMakeFiles/2020_03.dir/2020/
 
 build cmake_object_order_depends_target_2020_06: phony || CMakeFiles/2020_06.dir
 
-build CMakeFiles/2020_06.dir/2020/Day06/Day06.cpp.o: CXX_COMPILER__2020_06_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2020/Day06/Day06.cpp || cmake_object_order_depends_target_2020_06
+build CMakeFiles/2020_06.dir/2020/Day06/Day06.cpp.o: CXX_COMPILER__2020_06_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2020/Day06/Day06.cpp || cmake_object_order_depends_target_2020_06
   DEP_FILE = CMakeFiles/2020_06.dir/2020/Day06/Day06.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2020_06.dir
   OBJECT_FILE_DIR = CMakeFiles/2020_06.dir/2020/Day06
-  TARGET_COMPILE_PDB = CMakeFiles/2020_06.dir/
-  TARGET_PDB = 2020_06.pdb
 
 
 # =============================================================================
@@ -622,9 +570,8 @@ build 2020_06: CXX_EXECUTABLE_LINKER__2020_06_Debug CMakeFiles/2020_06.dir/2020/
   OBJECT_DIR = CMakeFiles/2020_06.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2020_06.dir/
   TARGET_FILE = 2020_06
-  TARGET_PDB = 2020_06.pdb
+  TARGET_PDB = 2020_06.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2021_01
@@ -635,13 +582,11 @@ build 2020_06: CXX_EXECUTABLE_LINKER__2020_06_Debug CMakeFiles/2020_06.dir/2020/
 
 build cmake_object_order_depends_target_2021_01: phony || CMakeFiles/2021_01.dir
 
-build CMakeFiles/2021_01.dir/2021/Day01/Day01.cpp.o: CXX_COMPILER__2021_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2021/Day01/Day01.cpp || cmake_object_order_depends_target_2021_01
+build CMakeFiles/2021_01.dir/2021/Day01/Day01.cpp.o: CXX_COMPILER__2021_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2021/Day01/Day01.cpp || cmake_object_order_depends_target_2021_01
   DEP_FILE = CMakeFiles/2021_01.dir/2021/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2021_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2021_01.dir/2021/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2021_01.dir/
-  TARGET_PDB = 2021_01.pdb
 
 
 # =============================================================================
@@ -656,9 +601,8 @@ build 2021_01: CXX_EXECUTABLE_LINKER__2021_01_Debug CMakeFiles/2021_01.dir/2021/
   OBJECT_DIR = CMakeFiles/2021_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2021_01.dir/
   TARGET_FILE = 2021_01
-  TARGET_PDB = 2021_01.pdb
+  TARGET_PDB = 2021_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2021_02
@@ -669,13 +613,11 @@ build 2021_01: CXX_EXECUTABLE_LINKER__2021_01_Debug CMakeFiles/2021_01.dir/2021/
 
 build cmake_object_order_depends_target_2021_02: phony || CMakeFiles/2021_02.dir
 
-build CMakeFiles/2021_02.dir/2021/Day02/Day02.cpp.o: CXX_COMPILER__2021_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2021/Day02/Day02.cpp || cmake_object_order_depends_target_2021_02
+build CMakeFiles/2021_02.dir/2021/Day02/Day02.cpp.o: CXX_COMPILER__2021_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2021/Day02/Day02.cpp || cmake_object_order_depends_target_2021_02
   DEP_FILE = CMakeFiles/2021_02.dir/2021/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2021_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2021_02.dir/2021/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2021_02.dir/
-  TARGET_PDB = 2021_02.pdb
 
 
 # =============================================================================
@@ -690,9 +632,8 @@ build 2021_02: CXX_EXECUTABLE_LINKER__2021_02_Debug CMakeFiles/2021_02.dir/2021/
   OBJECT_DIR = CMakeFiles/2021_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2021_02.dir/
   TARGET_FILE = 2021_02
-  TARGET_PDB = 2021_02.pdb
+  TARGET_PDB = 2021_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2021_03
@@ -703,13 +644,11 @@ build 2021_02: CXX_EXECUTABLE_LINKER__2021_02_Debug CMakeFiles/2021_02.dir/2021/
 
 build cmake_object_order_depends_target_2021_03: phony || CMakeFiles/2021_03.dir
 
-build CMakeFiles/2021_03.dir/2021/Day03/Day03.cpp.o: CXX_COMPILER__2021_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2021/Day03/Day03.cpp || cmake_object_order_depends_target_2021_03
+build CMakeFiles/2021_03.dir/2021/Day03/Day03.cpp.o: CXX_COMPILER__2021_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2021/Day03/Day03.cpp || cmake_object_order_depends_target_2021_03
   DEP_FILE = CMakeFiles/2021_03.dir/2021/Day03/Day03.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2021_03.dir
   OBJECT_FILE_DIR = CMakeFiles/2021_03.dir/2021/Day03
-  TARGET_COMPILE_PDB = CMakeFiles/2021_03.dir/
-  TARGET_PDB = 2021_03.pdb
 
 
 # =============================================================================
@@ -724,9 +663,8 @@ build 2021_03: CXX_EXECUTABLE_LINKER__2021_03_Debug CMakeFiles/2021_03.dir/2021/
   OBJECT_DIR = CMakeFiles/2021_03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2021_03.dir/
   TARGET_FILE = 2021_03
-  TARGET_PDB = 2021_03.pdb
+  TARGET_PDB = 2021_03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_01
@@ -737,13 +675,11 @@ build 2021_03: CXX_EXECUTABLE_LINKER__2021_03_Debug CMakeFiles/2021_03.dir/2021/
 
 build cmake_object_order_depends_target_2022_01: phony || CMakeFiles/2022_01.dir
 
-build CMakeFiles/2022_01.dir/2022/Day01/Day01.cpp.o: CXX_COMPILER__2022_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day01/Day01.cpp || cmake_object_order_depends_target_2022_01
+build CMakeFiles/2022_01.dir/2022/Day01/Day01.cpp.o: CXX_COMPILER__2022_01_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day01/Day01.cpp || cmake_object_order_depends_target_2022_01
   DEP_FILE = CMakeFiles/2022_01.dir/2022/Day01/Day01.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_01.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_01.dir/2022/Day01
-  TARGET_COMPILE_PDB = CMakeFiles/2022_01.dir/
-  TARGET_PDB = 2022_01.pdb
 
 
 # =============================================================================
@@ -758,9 +694,8 @@ build 2022_01: CXX_EXECUTABLE_LINKER__2022_01_Debug CMakeFiles/2022_01.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_01.dir/
   TARGET_FILE = 2022_01
-  TARGET_PDB = 2022_01.pdb
+  TARGET_PDB = 2022_01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_02
@@ -771,13 +706,11 @@ build 2022_01: CXX_EXECUTABLE_LINKER__2022_01_Debug CMakeFiles/2022_01.dir/2022/
 
 build cmake_object_order_depends_target_2022_02: phony || CMakeFiles/2022_02.dir
 
-build CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.o: CXX_COMPILER__2022_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day02/Day02.cpp || cmake_object_order_depends_target_2022_02
+build CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.o: CXX_COMPILER__2022_02_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day02/Day02.cpp || cmake_object_order_depends_target_2022_02
   DEP_FILE = CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_02.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_02.dir/2022/Day02
-  TARGET_COMPILE_PDB = CMakeFiles/2022_02.dir/
-  TARGET_PDB = 2022_02.pdb
 
 
 # =============================================================================
@@ -792,9 +725,8 @@ build 2022_02: CXX_EXECUTABLE_LINKER__2022_02_Debug CMakeFiles/2022_02.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_02.dir/
   TARGET_FILE = 2022_02
-  TARGET_PDB = 2022_02.pdb
+  TARGET_PDB = 2022_02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_03
@@ -805,13 +737,11 @@ build 2022_02: CXX_EXECUTABLE_LINKER__2022_02_Debug CMakeFiles/2022_02.dir/2022/
 
 build cmake_object_order_depends_target_2022_03: phony || CMakeFiles/2022_03.dir
 
-build CMakeFiles/2022_03.dir/2022/Day03/Day03.cpp.o: CXX_COMPILER__2022_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day03/Day03.cpp || cmake_object_order_depends_target_2022_03
+build CMakeFiles/2022_03.dir/2022/Day03/Day03.cpp.o: CXX_COMPILER__2022_03_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day03/Day03.cpp || cmake_object_order_depends_target_2022_03
   DEP_FILE = CMakeFiles/2022_03.dir/2022/Day03/Day03.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_03.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_03.dir/2022/Day03
-  TARGET_COMPILE_PDB = CMakeFiles/2022_03.dir/
-  TARGET_PDB = 2022_03.pdb
 
 
 # =============================================================================
@@ -826,9 +756,8 @@ build 2022_03: CXX_EXECUTABLE_LINKER__2022_03_Debug CMakeFiles/2022_03.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_03.dir/
   TARGET_FILE = 2022_03
-  TARGET_PDB = 2022_03.pdb
+  TARGET_PDB = 2022_03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_04
@@ -839,13 +768,11 @@ build 2022_03: CXX_EXECUTABLE_LINKER__2022_03_Debug CMakeFiles/2022_03.dir/2022/
 
 build cmake_object_order_depends_target_2022_04: phony || CMakeFiles/2022_04.dir
 
-build CMakeFiles/2022_04.dir/2022/Day04/Day04.cpp.o: CXX_COMPILER__2022_04_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day04/Day04.cpp || cmake_object_order_depends_target_2022_04
+build CMakeFiles/2022_04.dir/2022/Day04/Day04.cpp.o: CXX_COMPILER__2022_04_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day04/Day04.cpp || cmake_object_order_depends_target_2022_04
   DEP_FILE = CMakeFiles/2022_04.dir/2022/Day04/Day04.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_04.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_04.dir/2022/Day04
-  TARGET_COMPILE_PDB = CMakeFiles/2022_04.dir/
-  TARGET_PDB = 2022_04.pdb
 
 
 # =============================================================================
@@ -860,9 +787,8 @@ build 2022_04: CXX_EXECUTABLE_LINKER__2022_04_Debug CMakeFiles/2022_04.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_04.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_04.dir/
   TARGET_FILE = 2022_04
-  TARGET_PDB = 2022_04.pdb
+  TARGET_PDB = 2022_04.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_06
@@ -873,13 +799,11 @@ build 2022_04: CXX_EXECUTABLE_LINKER__2022_04_Debug CMakeFiles/2022_04.dir/2022/
 
 build cmake_object_order_depends_target_2022_06: phony || CMakeFiles/2022_06.dir
 
-build CMakeFiles/2022_06.dir/2022/Day06/Day06.cpp.o: CXX_COMPILER__2022_06_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day06/Day06.cpp || cmake_object_order_depends_target_2022_06
+build CMakeFiles/2022_06.dir/2022/Day06/Day06.cpp.o: CXX_COMPILER__2022_06_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day06/Day06.cpp || cmake_object_order_depends_target_2022_06
   DEP_FILE = CMakeFiles/2022_06.dir/2022/Day06/Day06.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_06.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_06.dir/2022/Day06
-  TARGET_COMPILE_PDB = CMakeFiles/2022_06.dir/
-  TARGET_PDB = 2022_06.pdb
 
 
 # =============================================================================
@@ -894,9 +818,8 @@ build 2022_06: CXX_EXECUTABLE_LINKER__2022_06_Debug CMakeFiles/2022_06.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_06.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_06.dir/
   TARGET_FILE = 2022_06
-  TARGET_PDB = 2022_06.pdb
+  TARGET_PDB = 2022_06.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2022_12
@@ -907,21 +830,17 @@ build 2022_06: CXX_EXECUTABLE_LINKER__2022_06_Debug CMakeFiles/2022_06.dir/2022/
 
 build cmake_object_order_depends_target_2022_12: phony || CMakeFiles/2022_12.dir
 
-build CMakeFiles/2022_12.dir/2022/Day12/main.cpp.o: CXX_COMPILER__2022_12_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day12/main.cpp || cmake_object_order_depends_target_2022_12
+build CMakeFiles/2022_12.dir/2022/Day12/main.cpp.o: CXX_COMPILER__2022_12_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day12/main.cpp || cmake_object_order_depends_target_2022_12
   DEP_FILE = CMakeFiles/2022_12.dir/2022/Day12/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_12.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_12.dir/2022/Day12
-  TARGET_COMPILE_PDB = CMakeFiles/2022_12.dir/
-  TARGET_PDB = 2022_12.pdb
 
-build CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.o: CXX_COMPILER__2022_12_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/advent-of-code/2022/Day12/Day12.cpp || cmake_object_order_depends_target_2022_12
+build CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.o: CXX_COMPILER__2022_12_unscanned_Debug /home/tibor/Desktop/advent$ of$ code/cpp/2022/Day12/Day12.cpp || cmake_object_order_depends_target_2022_12
   DEP_FILE = CMakeFiles/2022_12.dir/2022/Day12/Day12.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/2022_12.dir
   OBJECT_FILE_DIR = CMakeFiles/2022_12.dir/2022/Day12
-  TARGET_COMPILE_PDB = CMakeFiles/2022_12.dir/
-  TARGET_PDB = 2022_12.pdb
 
 
 # =============================================================================
@@ -936,16 +855,15 @@ build 2022_12: CXX_EXECUTABLE_LINKER__2022_12_Debug CMakeFiles/2022_12.dir/2022/
   OBJECT_DIR = CMakeFiles/2022_12.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2022_12.dir/
   TARGET_FILE = 2022_12
-  TARGET_PDB = 2022_12.pdb
+  TARGET_PDB = 2022_12.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug" && /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug" && /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -956,7 +874,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug" && /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tibor/Desktop/advent of code/advent-of-code" -B"/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug"
+  COMMAND = cd "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug" && /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tibor/Desktop/advent of code/cpp" -B"/home/tibor/Desktop/advent of code/cpp/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -972,7 +890,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug
+# Folder: /home/tibor/Desktop/advent of code/cpp/cmake-build-debug
 
 build all: phony 2015_01 2015_02 2015_03 2015_09 2016_01 2016_02 2016_03 2017_01 2017_02 2018_01 2018_02 2019_01 2019_02 2020_01 2020_02 2020_03 2020_06 2021_01 2021_02 2021_03 2022_01 2022_02 2022_03 2022_04 2022_06 2022_12
 
@@ -983,14 +901,14 @@ build all: phony 2015_01 2015_02 2015_03 2015_09 2016_01 2016_02 2016_03 2017_01
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-Determine-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/tibor/Desktop/advent$ of$ code/advent-of-code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/tibor/Desktop/advent$ of$ code/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-Determine-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/tibor/Desktop/advent$ of$ code/advent-of-code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/tibor/Desktop/advent$ of$ code/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################

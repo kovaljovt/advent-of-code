@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: advent_of_code
+# Project: advent
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -517,7 +517,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tibor/Desktop/advent of code/advent-of-code" -B"/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug"
+  command = /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tibor/Desktop/advent of code/cpp" -B"/home/tibor/Desktop/advent of code/cpp/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

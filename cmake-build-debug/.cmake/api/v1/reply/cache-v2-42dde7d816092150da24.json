@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug"
+			"value" : "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tibor/Desktop/advent of code/advent-of-code"
+			"value" : "/home/tibor/Desktop/advent of code/cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "advent_of_code"
+			"value" : "advent"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1138,7 +1138,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "advent_of_code_BINARY_DIR",
+			"name" : "advent_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,10 +1147,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tibor/Desktop/advent of code/advent-of-code/cmake-build-debug"
+			"value" : "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug"
 		},
 		{
-			"name" : "advent_of_code_IS_TOP_LEVEL",
+			"name" : "advent_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1162,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "advent_of_code_SOURCE_DIR",
+			"name" : "advent_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,7 +1171,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tibor/Desktop/advent of code/advent-of-code"
+			"value" : "/home/tibor/Desktop/advent of code/cpp"
+		},
+		{
+			"name" : "cpp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/tibor/Desktop/advent of code/cpp/cmake-build-debug"
+		},
+		{
+			"name" : "cpp_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "cpp_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/tibor/Desktop/advent of code/cpp"
 		}
 	],
 	"kind" : "cache",

@@ -23,9 +23,7 @@ def part1():
 def part2():
     with open("Day03.txt") as file:
         data = [i for i in file.read().strip().split()]
-
     result = 0
-
     iterator = 3
     for i in range(0, len(data), 3):
         rucksacks = data[i:iterator]
@@ -33,7 +31,6 @@ def part2():
         for priority, character in enumerate(ascii_letters):
             if character in rucksacks[0] and character in rucksacks[1] and character in rucksacks[2]:
                 result += priority + 1
-
     return result
 
 main()

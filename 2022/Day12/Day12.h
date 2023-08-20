@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 #include <queue>
+#include <filesystem>
 #include <fstream>
 
 enum struct Solution : int {
@@ -27,7 +28,7 @@ public:
 
 	std::vector<std::string> readInputFromFile(const std::string &filePath);
 
-	int solve(Solution solution);
+	int solve(Solution solution, const std::string &path);
 };
 
 #endif

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(advent_of_code)
+project(advent)
 
 set(CMAKE_CXX_STANDARD 17)
 

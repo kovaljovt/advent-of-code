@@ -5,6 +5,7 @@ def main():
     print(part1(inarr))
     print(part2(inarr))
 
+
 def find_trees(inarr, y, x):
     curry = 0
     currx = 0
@@ -18,8 +19,10 @@ def find_trees(inarr, y, x):
 
     return count
 
+
 def part1(inarr):
     return find_trees(inarr, 1, 3)
+
 
 def part2(inarr):
     variations = [(1, 1), (1, 3), (1, 5), (1, 7), (2, 1)]
@@ -29,5 +32,6 @@ def part2(inarr):
         treeprod *= find_trees(inarr, i[0], i[1])
 
     return treeprod
+
 
 main()
