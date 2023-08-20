@@ -21,9 +21,8 @@ std::vector<Route> Day09::readInputFromFile(const std::string &filePath) {
 	return routes;
 }
 
-int Day09::solve(Solution solution) {
-	std::vector<Route> routes = readInputFromFile(
-			R"(C:\Users\Acer\Desktop\drawer\programming\cpp\advent-of-code\2015\Day09\Day09.txt)");
+int Day09::solve(Solution solution, const std::string &path) {
+	std::vector<Route> routes = readInputFromFile(path);
 	std::set<std::string> uniqueStations;
 
 	for (const auto &route: routes) {

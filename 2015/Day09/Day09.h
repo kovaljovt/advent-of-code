@@ -7,6 +7,7 @@
 #include <stack>
 #include <set>
 #include <algorithm>
+#include <filesystem>
 #include <fstream>
 
 enum struct Solution : int {
@@ -30,9 +31,9 @@ class Day09 {
 public:
 	Day09();
 
-	std::vector<Route> readInputFromFile(const std::string &filePath);
+	static std::vector<Route> readInputFromFile(const std::string &filePath);
 
-	int solve(Solution solution);
+	static int solve(Solution solution, const std::string &path);
 };
 
 #endif
