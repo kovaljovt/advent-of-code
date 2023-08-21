@@ -10,7 +10,6 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-	Day12 solver;
     std::string inputData;
 
     if (std::filesystem::is_regular_file(path)) {
@@ -23,11 +22,13 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    // calling solve method
-	int part1 = solver.solve(Solution::part1, path);
-	int part2 = solver.solve(Solution::part2, path);
-	std::cout << part1 << '\n';
-	std::cout << part2 << '\n';
+    Day12 solver;
 
-	return 0;
+    // calling solve method
+    int part1 = solver.solve(Solution::part1, inputData);
+    int part2 = solver.solve(Solution::part2, inputData);
+    std::cout << part1 << '\n';
+    std::cout << part2 << '\n';
+
+    return 0;
 }

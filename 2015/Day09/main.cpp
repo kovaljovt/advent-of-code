@@ -24,8 +24,8 @@ int main(int argc, char** argv) {
     }
 
     // calling the solve method
-	int part1 = solver.solve(Solution::part1, path);
-	int part2 = solver.solve(Solution::part2, path);
+	int part1 = solver.solve(Solution::part1, inputData);
+	int part2 = solver.solve(Solution::part2, inputData);
 	std::cout << part1 << '\n';
 	std::cout << part2 << '\n';
 
