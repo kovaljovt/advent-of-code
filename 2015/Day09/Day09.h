@@ -31,8 +31,6 @@ class Day09 {
 public:
 	Day09();
 
-	static std::vector<Route> readInputFromFile(const std::string &filePath);
-
 	static int solve(Solution solution, const std::string &path);
 };
 

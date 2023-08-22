@@ -10,7 +10,6 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-	Day09 solver;
     std::string inputData;
 
     if (std::filesystem::is_regular_file(path)) {
@@ -22,6 +21,8 @@ int main(int argc, char** argv) {
         std::cerr << "Invalid file!" << '\n';
         return 1;
     }
+
+    Day09 solver;
 
     // calling the solve method
 	int part1 = solver.solve(Solution::part1, inputData);

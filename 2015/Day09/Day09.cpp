@@ -2,27 +2,23 @@
 
 Day09::Day09() = default;
 
-std::vector<Route> Day09::readInputFromFile(const std::string &filePath) {
-	std::fstream input(filePath);
-	std::string line;
-	std::vector<Route> routes;
-	while (std::getline(input, line)) {
-		std::string from, to;
-		int distance;
-		size_t equalPos = line.find('=');
-		if (equalPos != std::string::npos) {
-			size_t toPos = line.find("to");
-			from = line.substr(0, toPos - 1);
-			to = line.substr(toPos + 3, equalPos - toPos - 4);
-			distance = std::stoi(line.substr(equalPos + 2));
-			routes.push_back({from, to, distance});
-		}
-	}
-	return routes;
-}
+int Day09::solve(Solution solution, const std::string &inputData) {
+    std::string line;
+    std::istringstream dataStream(inputData);
+    std::vector<Route> routes;
+    while (std::getline(dataStream, line)) {
+        std::string from, to;
+        int distance;
+        size_t equalPos = line.find('=');
+        if (equalPos != std::string::npos) {
+            size_t toPos = line.find("to");
+            from = line.substr(0, toPos - 1);
+            to = line.substr(toPos + 3, equalPos - toPos - 4);
+            distance = std::stoi(line.substr(equalPos + 2));
+            routes.push_back({from, to, distance});
+        }
+    }
 
-int Day09::solve(Solution solution, const std::string &path) {
-	std::vector<Route> routes = readInputFromFile(path);
 	std::set<std::string> uniqueStations;
 
 	for (const auto &route: routes) {
