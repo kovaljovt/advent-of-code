@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="advent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_03">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_03"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_03/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_03/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_09">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_09"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2015_09/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2015_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2015_09/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_03">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_03"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016_03/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2016_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2016_03/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2017_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2017_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2017_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2017_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2017_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2017_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2017_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2017_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2017_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2017_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2017_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2017_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2018_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2018_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2018_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2018_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2019_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2019_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2019_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2019_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2019_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2019_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2019_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2019_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_03">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_03"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_03/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_03/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_06">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_06"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_06/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2020_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_06/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_03">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_03"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021_03/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2021_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2021_03/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_01">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_01"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_01/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_01/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_02">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_02"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_02/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_02/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_03">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_03"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_03/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_03/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_04">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_04"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_04/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_04/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_06">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_06"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_06/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_06/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_12">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_12"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022_12/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2022_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2022_12/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day01/Day01.cpp">
+			<Option target="2015_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day02/Day02.cpp">
+			<Option target="2015_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day03/Day03.cpp">
+			<Option target="2015_03"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day09/Day09.cpp">
+			<Option target="2015_09"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day09/Day09.h">
+			<Option target="2015_09"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day09/main.cpp">
+			<Option target="2015_09"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2016/Day01/Day01.cpp">
+			<Option target="2016_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2016/Day02/Day02.cpp">
+			<Option target="2016_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2016/Day03/Day03.cpp">
+			<Option target="2016_03"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2017/Day01/Day01.cpp">
+			<Option target="2017_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2017/Day02/Day02.cpp">
+			<Option target="2017_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2018/Day01/Day01.cpp">
+			<Option target="2018_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2018/Day02/Day02.cpp">
+			<Option target="2018_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2019/Day01/Day01.cpp">
+			<Option target="2019_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2019/Day02/Day02.cpp">
+			<Option target="2019_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day01/Day01.cpp">
+			<Option target="2020_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day02/Day02.cpp">
+			<Option target="2020_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day03/Day03.cpp">
+			<Option target="2020_03"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day06/Day06.cpp">
+			<Option target="2020_06"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2021/Day01/Day01.cpp">
+			<Option target="2021_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2021/Day02/Day02.cpp">
+			<Option target="2021_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2021/Day03/Day03.cpp">
+			<Option target="2021_03"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day01/Day01.cpp">
+			<Option target="2022_01"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day02/Day02.cpp">
+			<Option target="2022_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day03/Day03.cpp">
+			<Option target="2022_03"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day04/Day04.cpp">
+			<Option target="2022_04"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day06/Day06.cpp">
+			<Option target="2022_06"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day12/Day12.cpp">
+			<Option target="2022_12"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day12/Day12.h">
+			<Option target="2022_12"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2022/Day12/main.cpp">
+			<Option target="2022_12"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

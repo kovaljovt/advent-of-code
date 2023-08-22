@@ -31,7 +31,7 @@ class Day09 {
 public:
 	Day09();
 
-	static int solve(Solution solution, const std::string &path);
+	static int solve(Solution solution, const std::string &inputData);
 };
 
 #endif
