@@ -156,6 +156,19 @@ depend:
 .PHONY : 2015_03/fast
 
 #=============================================================================
+# Target rules for targets named 2015_04
+
+# Build rule for target.
+2015_04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_04
+.PHONY : 2015_04
+
+# fast build rule for target.
+2015_04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/build
+.PHONY : 2015_04/fast
+
+#=============================================================================
 # Target rules for targets named 2015_09
 
 # Build rule for target.
@@ -525,6 +538,33 @@ depend:
 2015/Day03/Day03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_03.dir/build.make CMakeFiles/2015_03.dir/2015/Day03/Day03.cpp.s
 .PHONY : 2015/Day03/Day03.cpp.s
+
+2015/Day04/Day04.txt.o: 2015/Day04/Day04.txt.cpp.o
+.PHONY : 2015/Day04/Day04.txt.o
+
+# target to build an object file
+2015/Day04/Day04.txt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2015/Day04/Day04.txt.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.o
+.PHONY : 2015/Day04/Day04.txt.cpp.o
+
+2015/Day04/Day04.txt.i: 2015/Day04/Day04.txt.cpp.i
+.PHONY : 2015/Day04/Day04.txt.i
+
+# target to preprocess a source file
+2015/Day04/Day04.txt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2015/Day04/Day04.txt.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.i
+.PHONY : 2015/Day04/Day04.txt.cpp.i
+
+2015/Day04/Day04.txt.s: 2015/Day04/Day04.txt.cpp.s
+.PHONY : 2015/Day04/Day04.txt.s
+
+# target to generate assembly for a file
+2015/Day04/Day04.txt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2015/Day04/Day04.txt.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.s
+.PHONY : 2015/Day04/Day04.txt.cpp.s
 
 2015/Day09/Day09.o: 2015/Day09/Day09.cpp.o
 .PHONY : 2015/Day09/Day09.o
@@ -1137,6 +1177,7 @@ help:
 	@echo "... 2015_01"
 	@echo "... 2015_02"
 	@echo "... 2015_03"
+	@echo "... 2015_04"
 	@echo "... 2015_09"
 	@echo "... 2016_01"
 	@echo "... 2016_02"
@@ -1169,6 +1210,9 @@ help:
 	@echo "... 2015/Day03/Day03.o"
 	@echo "... 2015/Day03/Day03.i"
 	@echo "... 2015/Day03/Day03.s"
+	@echo "... 2015/Day04/Day04.txt.o"
+	@echo "... 2015/Day04/Day04.txt.i"
+	@echo "... 2015/Day04/Day04.txt.s"
 	@echo "... 2015/Day09/Day09.o"
 	@echo "... 2015/Day09/Day09.i"
 	@echo "... 2015/Day09/Day09.s"
