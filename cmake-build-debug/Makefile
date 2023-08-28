@@ -351,6 +351,32 @@ depend:
 .PHONY : 2020_06/fast
 
 #=============================================================================
+# Target rules for targets named 2020_12
+
+# Build rule for target.
+2020_12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2020_12
+.PHONY : 2020_12
+
+# fast build rule for target.
+2020_12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/build
+.PHONY : 2020_12/fast
+
+#=============================================================================
+# Target rules for targets named 2020_12_2
+
+# Build rule for target.
+2020_12_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2020_12_2
+.PHONY : 2020_12_2
+
+# fast build rule for target.
+2020_12_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/build
+.PHONY : 2020_12_2/fast
+
+#=============================================================================
 # Target rules for targets named 2021_01
 
 # Build rule for target.
@@ -926,6 +952,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_06.dir/build.make CMakeFiles/2020_06.dir/2020/Day06/Day06.cpp.s
 .PHONY : 2020/Day06/Day06.cpp.s
 
+2020/Day12/Day12.o: 2020/Day12/Day12.cpp.o
+.PHONY : 2020/Day12/Day12.o
+
+# target to build an object file
+2020/Day12/Day12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/2020/Day12/Day12.cpp.o
+.PHONY : 2020/Day12/Day12.cpp.o
+
+2020/Day12/Day12.i: 2020/Day12/Day12.cpp.i
+.PHONY : 2020/Day12/Day12.i
+
+# target to preprocess a source file
+2020/Day12/Day12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/2020/Day12/Day12.cpp.i
+.PHONY : 2020/Day12/Day12.cpp.i
+
+2020/Day12/Day12.s: 2020/Day12/Day12.cpp.s
+.PHONY : 2020/Day12/Day12.s
+
+# target to generate assembly for a file
+2020/Day12/Day12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/2020/Day12/Day12.cpp.s
+.PHONY : 2020/Day12/Day12.cpp.s
+
+2020/Day12/Day12part2.o: 2020/Day12/Day12part2.cpp.o
+.PHONY : 2020/Day12/Day12part2.o
+
+# target to build an object file
+2020/Day12/Day12part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12part2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/2020/Day12/Day12part2.cpp.o
+.PHONY : 2020/Day12/Day12part2.cpp.o
+
+2020/Day12/Day12part2.i: 2020/Day12/Day12part2.cpp.i
+.PHONY : 2020/Day12/Day12part2.i
+
+# target to preprocess a source file
+2020/Day12/Day12part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12part2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/2020/Day12/Day12part2.cpp.i
+.PHONY : 2020/Day12/Day12part2.cpp.i
+
+2020/Day12/Day12part2.s: 2020/Day12/Day12part2.cpp.s
+.PHONY : 2020/Day12/Day12part2.s
+
+# target to generate assembly for a file
+2020/Day12/Day12part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2020/Day12/Day12part2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/2020/Day12/Day12part2.cpp.s
+.PHONY : 2020/Day12/Day12part2.cpp.s
+
 2021/Day01/Day01.o: 2021/Day01/Day01.cpp.o
 .PHONY : 2021/Day01/Day01.o
 
@@ -1192,6 +1272,8 @@ help:
 	@echo "... 2020_02"
 	@echo "... 2020_03"
 	@echo "... 2020_06"
+	@echo "... 2020_12"
+	@echo "... 2020_12_2"
 	@echo "... 2021_01"
 	@echo "... 2021_02"
 	@echo "... 2021_03"
@@ -1258,6 +1340,12 @@ help:
 	@echo "... 2020/Day06/Day06.o"
 	@echo "... 2020/Day06/Day06.i"
 	@echo "... 2020/Day06/Day06.s"
+	@echo "... 2020/Day12/Day12.o"
+	@echo "... 2020/Day12/Day12.i"
+	@echo "... 2020/Day12/Day12.s"
+	@echo "... 2020/Day12/Day12part2.o"
+	@echo "... 2020/Day12/Day12part2.i"
+	@echo "... 2020/Day12/Day12part2.s"
 	@echo "... 2021/Day01/Day01.o"
 	@echo "... 2021/Day01/Day01.i"
 	@echo "... 2021/Day01/Day01.s"

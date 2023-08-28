@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(2015_01 2015/Day01/Day01.cpp
         2015/Day04/Day04.txt.cpp
+        2020/Day12/Day12.cpp
+        2020/Day12/Day12part2.cpp
 )
 add_executable(2015_02 2015/Day02/Day02.cpp)
 add_executable(2015_03 2015/Day03/Day03.cpp)
@@ -28,6 +30,8 @@ add_executable(2020_01 2020/Day01/Day01.cpp)
 add_executable(2020_02 2020/Day02/Day02.cpp)
 add_executable(2020_03 2020/Day03/Day03.cpp)
 add_executable(2020_06 2020/Day06/Day06.cpp)
+add_executable(2020_12 2020/Day12/Day12.cpp)
+add_executable(2020_12_2 2020/Day12/Day12part2.cpp)
 
 add_executable(2021_01 2021/Day01/Day01.cpp)
 add_executable(2021_02 2021/Day02/Day02.cpp)
