@@ -23,33 +23,33 @@ std::vector<Instructions> ParseInput(const std::string &file_path) {
 }
 
 
-std::pair<int, int> wpChange(int x_wp, int yWp, char direction, int degrees) {
+std::pair<int, int> wpChange(int xWp, int yWp, char direction, int degrees) {
     int xWpNew = 0;
-    int yWp_new = 0;
+    int yWpNew = 0;
     if (direction == 'L') {
         if (degrees == 90) {
             xWpNew = yWp * -1;
-            yWp_new = x_wp;
+            yWpNew = xWp;
         } else if (degrees == 180) {
-            xWpNew = x_wp * -1;
-            yWp_new = yWp * -1;
+            xWpNew = xWp * -1;
+            yWpNew = yWp * -1;
         } else if (degrees == 270) {
             xWpNew = yWp;
-            yWp_new = x_wp * -1;
+            yWpNew = xWp * -1;
         }
     } else if (direction == 'R') {
         if (degrees == 90) {
             xWpNew = yWp;
-            yWp_new = x_wp * -1;
+            yWpNew = xWp * -1;
         } else if (degrees == 180) {
-            xWpNew = x_wp * -1;
-            yWp_new = yWp * -1;
+            xWpNew = xWp * -1;
+            yWpNew = yWp * -1;
         } else if (degrees == 270) {
             xWpNew = yWp * -1;
-            yWp_new = x_wp;
+            yWpNew = xWp;
         }
     }
-    return std::make_pair(xWpNew, yWp_new);
+    return std::make_pair(xWpNew, yWpNew);
 }
 
 
@@ -82,6 +82,6 @@ int part2() {
 
 
 int main() {
-    std::cout << "The solution to day 12, part 2 is: " << part2() << '\n';
+    std::cout << part2() << '\n';
     return 0;
 }
