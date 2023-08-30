@@ -9,7 +9,7 @@ struct Instructions {
     int number;
 };
 
-std::vector<Instructions> parseInput(const std::string &filePath) {
+std::vector<std::string> parseInput(const std::string &filePath) {
     std::fstream input(filePath);
     std::string line;
     std::vector<Instructions> output;

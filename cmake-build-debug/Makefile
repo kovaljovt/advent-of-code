@@ -169,6 +169,19 @@ depend:
 .PHONY : 2015_04/fast
 
 #=============================================================================
+# Target rules for targets named 2015_05
+
+# Build rule for target.
+2015_05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_05
+.PHONY : 2015_05
+
+# fast build rule for target.
+2015_05/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/build
+.PHONY : 2015_05/fast
+
+#=============================================================================
 # Target rules for targets named 2015_09
 
 # Build rule for target.
@@ -180,6 +193,58 @@ depend:
 2015_09/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_09.dir/build.make CMakeFiles/2015_09.dir/build
 .PHONY : 2015_09/fast
+
+#=============================================================================
+# Target rules for targets named 2015_10
+
+# Build rule for target.
+2015_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_10
+.PHONY : 2015_10
+
+# fast build rule for target.
+2015_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/build
+.PHONY : 2015_10/fast
+
+#=============================================================================
+# Target rules for targets named 2015_12
+
+# Build rule for target.
+2015_12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_12
+.PHONY : 2015_12
+
+# fast build rule for target.
+2015_12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/build
+.PHONY : 2015_12/fast
+
+#=============================================================================
+# Target rules for targets named 2015_14
+
+# Build rule for target.
+2015_14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_14
+.PHONY : 2015_14
+
+# fast build rule for target.
+2015_14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/build
+.PHONY : 2015_14/fast
+
+#=============================================================================
+# Target rules for targets named 2015_17
+
+# Build rule for target.
+2015_17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2015_17
+.PHONY : 2015_17
+
+# fast build rule for target.
+2015_17/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/build
+.PHONY : 2015_17/fast
 
 #=============================================================================
 # Target rules for targets named 2016_01
@@ -507,6 +572,32 @@ depend:
 .PHONY : 2022_04/fast
 
 #=============================================================================
+# Target rules for targets named 2022_05
+
+# Build rule for target.
+2022_05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_05
+.PHONY : 2022_05
+
+# fast build rule for target.
+2022_05/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/build
+.PHONY : 2022_05/fast
+
+#=============================================================================
+# Target rules for targets named 2022_05_2
+
+# Build rule for target.
+2022_05_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_05_2
+.PHONY : 2022_05_2
+
+# fast build rule for target.
+2022_05_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/build
+.PHONY : 2022_05_2/fast
+
+#=============================================================================
 # Target rules for targets named 2022_06
 
 # Build rule for target.
@@ -520,6 +611,58 @@ depend:
 .PHONY : 2022_06/fast
 
 #=============================================================================
+# Target rules for targets named 2022_07
+
+# Build rule for target.
+2022_07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_07
+.PHONY : 2022_07
+
+# fast build rule for target.
+2022_07/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/build
+.PHONY : 2022_07/fast
+
+#=============================================================================
+# Target rules for targets named 2022_08
+
+# Build rule for target.
+2022_08: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_08
+.PHONY : 2022_08
+
+# fast build rule for target.
+2022_08/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/build
+.PHONY : 2022_08/fast
+
+#=============================================================================
+# Target rules for targets named 2022_09
+
+# Build rule for target.
+2022_09: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_09
+.PHONY : 2022_09
+
+# fast build rule for target.
+2022_09/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/build
+.PHONY : 2022_09/fast
+
+#=============================================================================
+# Target rules for targets named 2022_10
+
+# Build rule for target.
+2022_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_10
+.PHONY : 2022_10
+
+# fast build rule for target.
+2022_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/build
+.PHONY : 2022_10/fast
+
+#=============================================================================
 # Target rules for targets named 2022_12
 
 # Build rule for target.
@@ -531,6 +674,45 @@ depend:
 2022_12/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_12.dir/build.make CMakeFiles/2022_12.dir/build
 .PHONY : 2022_12/fast
+
+#=============================================================================
+# Target rules for targets named 2022_18
+
+# Build rule for target.
+2022_18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_18
+.PHONY : 2022_18
+
+# fast build rule for target.
+2022_18/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/build
+.PHONY : 2022_18/fast
+
+#=============================================================================
+# Target rules for targets named 2022_20
+
+# Build rule for target.
+2022_20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_20
+.PHONY : 2022_20
+
+# fast build rule for target.
+2022_20/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/build
+.PHONY : 2022_20/fast
+
+#=============================================================================
+# Target rules for targets named 2022_25
+
+# Build rule for target.
+2022_25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2022_25
+.PHONY : 2022_25
+
+# fast build rule for target.
+2022_25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/build
+.PHONY : 2022_25/fast
 
 2015/Day01/Day01.o: 2015/Day01/Day01.cpp.o
 .PHONY : 2015/Day01/Day01.o
@@ -604,29 +786,53 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_03.dir/build.make CMakeFiles/2015_03.dir/2015/Day03/Day03.cpp.s
 .PHONY : 2015/Day03/Day03.cpp.s
 
-2015/Day04/Day04.txt.o: 2015/Day04/Day04.txt.cpp.o
-.PHONY : 2015/Day04/Day04.txt.o
+2015/Day04/Day04.o: 2015/Day04/Day04.cpp.o
+.PHONY : 2015/Day04/Day04.o
 
 # target to build an object file
-2015/Day04/Day04.txt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.o
-.PHONY : 2015/Day04/Day04.txt.cpp.o
+2015/Day04/Day04.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.cpp.o
+.PHONY : 2015/Day04/Day04.cpp.o
 
-2015/Day04/Day04.txt.i: 2015/Day04/Day04.txt.cpp.i
-.PHONY : 2015/Day04/Day04.txt.i
+2015/Day04/Day04.i: 2015/Day04/Day04.cpp.i
+.PHONY : 2015/Day04/Day04.i
 
 # target to preprocess a source file
-2015/Day04/Day04.txt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.i
-.PHONY : 2015/Day04/Day04.txt.cpp.i
+2015/Day04/Day04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.cpp.i
+.PHONY : 2015/Day04/Day04.cpp.i
 
-2015/Day04/Day04.txt.s: 2015/Day04/Day04.txt.cpp.s
-.PHONY : 2015/Day04/Day04.txt.s
+2015/Day04/Day04.s: 2015/Day04/Day04.cpp.s
+.PHONY : 2015/Day04/Day04.s
 
 # target to generate assembly for a file
-2015/Day04/Day04.txt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.txt.cpp.s
-.PHONY : 2015/Day04/Day04.txt.cpp.s
+2015/Day04/Day04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/2015/Day04/Day04.cpp.s
+.PHONY : 2015/Day04/Day04.cpp.s
+
+2015/Day05/Day05.o: 2015/Day05/Day05.cpp.o
+.PHONY : 2015/Day05/Day05.o
+
+# target to build an object file
+2015/Day05/Day05.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/2015/Day05/Day05.cpp.o
+.PHONY : 2015/Day05/Day05.cpp.o
+
+2015/Day05/Day05.i: 2015/Day05/Day05.cpp.i
+.PHONY : 2015/Day05/Day05.i
+
+# target to preprocess a source file
+2015/Day05/Day05.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/2015/Day05/Day05.cpp.i
+.PHONY : 2015/Day05/Day05.cpp.i
+
+2015/Day05/Day05.s: 2015/Day05/Day05.cpp.s
+.PHONY : 2015/Day05/Day05.s
+
+# target to generate assembly for a file
+2015/Day05/Day05.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/2015/Day05/Day05.cpp.s
+.PHONY : 2015/Day05/Day05.cpp.s
 
 2015/Day09/Day09.o: 2015/Day09/Day09.cpp.o
 .PHONY : 2015/Day09/Day09.o
@@ -675,6 +881,102 @@ depend:
 2015/Day09/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_09.dir/build.make CMakeFiles/2015_09.dir/2015/Day09/main.cpp.s
 .PHONY : 2015/Day09/main.cpp.s
+
+2015/Day10/Day10.o: 2015/Day10/Day10.cpp.o
+.PHONY : 2015/Day10/Day10.o
+
+# target to build an object file
+2015/Day10/Day10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/2015/Day10/Day10.cpp.o
+.PHONY : 2015/Day10/Day10.cpp.o
+
+2015/Day10/Day10.i: 2015/Day10/Day10.cpp.i
+.PHONY : 2015/Day10/Day10.i
+
+# target to preprocess a source file
+2015/Day10/Day10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/2015/Day10/Day10.cpp.i
+.PHONY : 2015/Day10/Day10.cpp.i
+
+2015/Day10/Day10.s: 2015/Day10/Day10.cpp.s
+.PHONY : 2015/Day10/Day10.s
+
+# target to generate assembly for a file
+2015/Day10/Day10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/2015/Day10/Day10.cpp.s
+.PHONY : 2015/Day10/Day10.cpp.s
+
+2015/Day12/Day12.o: 2015/Day12/Day12.cpp.o
+.PHONY : 2015/Day12/Day12.o
+
+# target to build an object file
+2015/Day12/Day12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/2015/Day12/Day12.cpp.o
+.PHONY : 2015/Day12/Day12.cpp.o
+
+2015/Day12/Day12.i: 2015/Day12/Day12.cpp.i
+.PHONY : 2015/Day12/Day12.i
+
+# target to preprocess a source file
+2015/Day12/Day12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/2015/Day12/Day12.cpp.i
+.PHONY : 2015/Day12/Day12.cpp.i
+
+2015/Day12/Day12.s: 2015/Day12/Day12.cpp.s
+.PHONY : 2015/Day12/Day12.s
+
+# target to generate assembly for a file
+2015/Day12/Day12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/2015/Day12/Day12.cpp.s
+.PHONY : 2015/Day12/Day12.cpp.s
+
+2015/Day14/Day14.o: 2015/Day14/Day14.cpp.o
+.PHONY : 2015/Day14/Day14.o
+
+# target to build an object file
+2015/Day14/Day14.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/2015/Day14/Day14.cpp.o
+.PHONY : 2015/Day14/Day14.cpp.o
+
+2015/Day14/Day14.i: 2015/Day14/Day14.cpp.i
+.PHONY : 2015/Day14/Day14.i
+
+# target to preprocess a source file
+2015/Day14/Day14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/2015/Day14/Day14.cpp.i
+.PHONY : 2015/Day14/Day14.cpp.i
+
+2015/Day14/Day14.s: 2015/Day14/Day14.cpp.s
+.PHONY : 2015/Day14/Day14.s
+
+# target to generate assembly for a file
+2015/Day14/Day14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/2015/Day14/Day14.cpp.s
+.PHONY : 2015/Day14/Day14.cpp.s
+
+2015/Day17/Day17.o: 2015/Day17/Day17.cpp.o
+.PHONY : 2015/Day17/Day17.o
+
+# target to build an object file
+2015/Day17/Day17.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/2015/Day17/Day17.cpp.o
+.PHONY : 2015/Day17/Day17.cpp.o
+
+2015/Day17/Day17.i: 2015/Day17/Day17.cpp.i
+.PHONY : 2015/Day17/Day17.i
+
+# target to preprocess a source file
+2015/Day17/Day17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/2015/Day17/Day17.cpp.i
+.PHONY : 2015/Day17/Day17.cpp.i
+
+2015/Day17/Day17.s: 2015/Day17/Day17.cpp.s
+.PHONY : 2015/Day17/Day17.s
+
+# target to generate assembly for a file
+2015/Day17/Day17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/2015/Day17/Day17.cpp.s
+.PHONY : 2015/Day17/Day17.cpp.s
 
 2016/Day01/Day01.o: 2016/Day01/Day01.cpp.o
 .PHONY : 2016/Day01/Day01.o
@@ -1276,6 +1578,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_04.dir/build.make CMakeFiles/2022_04.dir/2022/Day04/Day04.cpp.s
 .PHONY : 2022/Day04/Day04.cpp.s
 
+2022/Day05/Day05.o: 2022/Day05/Day05.cpp.o
+.PHONY : 2022/Day05/Day05.o
+
+# target to build an object file
+2022/Day05/Day05.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/2022/Day05/Day05.cpp.o
+.PHONY : 2022/Day05/Day05.cpp.o
+
+2022/Day05/Day05.i: 2022/Day05/Day05.cpp.i
+.PHONY : 2022/Day05/Day05.i
+
+# target to preprocess a source file
+2022/Day05/Day05.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/2022/Day05/Day05.cpp.i
+.PHONY : 2022/Day05/Day05.cpp.i
+
+2022/Day05/Day05.s: 2022/Day05/Day05.cpp.s
+.PHONY : 2022/Day05/Day05.s
+
+# target to generate assembly for a file
+2022/Day05/Day05.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/2022/Day05/Day05.cpp.s
+.PHONY : 2022/Day05/Day05.cpp.s
+
+2022/Day05/Day05_part2.o: 2022/Day05/Day05_part2.cpp.o
+.PHONY : 2022/Day05/Day05_part2.o
+
+# target to build an object file
+2022/Day05/Day05_part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/2022/Day05/Day05_part2.cpp.o
+.PHONY : 2022/Day05/Day05_part2.cpp.o
+
+2022/Day05/Day05_part2.i: 2022/Day05/Day05_part2.cpp.i
+.PHONY : 2022/Day05/Day05_part2.i
+
+# target to preprocess a source file
+2022/Day05/Day05_part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/2022/Day05/Day05_part2.cpp.i
+.PHONY : 2022/Day05/Day05_part2.cpp.i
+
+2022/Day05/Day05_part2.s: 2022/Day05/Day05_part2.cpp.s
+.PHONY : 2022/Day05/Day05_part2.s
+
+# target to generate assembly for a file
+2022/Day05/Day05_part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/2022/Day05/Day05_part2.cpp.s
+.PHONY : 2022/Day05/Day05_part2.cpp.s
+
 2022/Day06/Day06.o: 2022/Day06/Day06.cpp.o
 .PHONY : 2022/Day06/Day06.o
 
@@ -1299,6 +1649,105 @@ depend:
 2022/Day06/Day06.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_06.dir/build.make CMakeFiles/2022_06.dir/2022/Day06/Day06.cpp.s
 .PHONY : 2022/Day06/Day06.cpp.s
+
+2022/Day07/Day07.o: 2022/Day07/Day07.cpp.o
+.PHONY : 2022/Day07/Day07.o
+
+# target to build an object file
+2022/Day07/Day07.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/2022/Day07/Day07.cpp.o
+.PHONY : 2022/Day07/Day07.cpp.o
+
+2022/Day07/Day07.i: 2022/Day07/Day07.cpp.i
+.PHONY : 2022/Day07/Day07.i
+
+# target to preprocess a source file
+2022/Day07/Day07.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/2022/Day07/Day07.cpp.i
+.PHONY : 2022/Day07/Day07.cpp.i
+
+2022/Day07/Day07.s: 2022/Day07/Day07.cpp.s
+.PHONY : 2022/Day07/Day07.s
+
+# target to generate assembly for a file
+2022/Day07/Day07.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/2022/Day07/Day07.cpp.s
+.PHONY : 2022/Day07/Day07.cpp.s
+
+2022/Day08/Day08.o: 2022/Day08/Day08.cpp.o
+.PHONY : 2022/Day08/Day08.o
+
+# target to build an object file
+2022/Day08/Day08.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/2022/Day08/Day08.cpp.o
+.PHONY : 2022/Day08/Day08.cpp.o
+
+2022/Day08/Day08.i: 2022/Day08/Day08.cpp.i
+.PHONY : 2022/Day08/Day08.i
+
+# target to preprocess a source file
+2022/Day08/Day08.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/2022/Day08/Day08.cpp.i
+.PHONY : 2022/Day08/Day08.cpp.i
+
+2022/Day08/Day08.s: 2022/Day08/Day08.cpp.s
+.PHONY : 2022/Day08/Day08.s
+
+# target to generate assembly for a file
+2022/Day08/Day08.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/2022/Day08/Day08.cpp.s
+.PHONY : 2022/Day08/Day08.cpp.s
+
+2022/Day09/Day09.o: 2022/Day09/Day09.cpp.o
+.PHONY : 2022/Day09/Day09.o
+
+# target to build an object file
+2022/Day09/Day09.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/2022/Day09/Day09.cpp.o
+.PHONY : 2022/Day09/Day09.cpp.o
+
+2022/Day09/Day09.i: 2022/Day09/Day09.cpp.i
+.PHONY : 2022/Day09/Day09.i
+
+# target to preprocess a source file
+2022/Day09/Day09.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/2022/Day09/Day09.cpp.i
+.PHONY : 2022/Day09/Day09.cpp.i
+
+2022/Day09/Day09.s: 2022/Day09/Day09.cpp.s
+.PHONY : 2022/Day09/Day09.s
+
+# target to generate assembly for a file
+2022/Day09/Day09.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/2022/Day09/Day09.cpp.s
+.PHONY : 2022/Day09/Day09.cpp.s
+
+2022/Day10/Day10.o: 2022/Day10/Day10.cpp.o
+.PHONY : 2022/Day10/Day10.o
+
+# target to build an object file
+2022/Day10/Day10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/2022/Day10/Day10.cpp.o
+.PHONY : 2022/Day10/Day10.cpp.o
+
+2022/Day10/Day10.i: 2022/Day10/Day10.cpp.i
+.PHONY : 2022/Day10/Day10.i
+
+# target to preprocess a source file
+2022/Day10/Day10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/2022/Day10/Day10.cpp.i
+.PHONY : 2022/Day10/Day10.cpp.i
+
+2022/Day10/Day10.s: 2022/Day10/Day10.cpp.s
+.PHONY : 2022/Day10/Day10.s
+
+# target to generate assembly for a file
+2022/Day10/Day10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/2022/Day10/Day10.cpp.s
+.PHONY : 2022/Day10/Day10.cpp.s
 
 2022/Day12/Day12.o: 2022/Day12/Day12.cpp.o
 .PHONY : 2022/Day12/Day12.o
@@ -1348,6 +1797,87 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_12.dir/build.make CMakeFiles/2022_12.dir/2022/Day12/main.cpp.s
 .PHONY : 2022/Day12/main.cpp.s
 
+2022/Day18/Day18.o: 2022/Day18/Day18.cpp.o
+.PHONY : 2022/Day18/Day18.o
+
+# target to build an object file
+2022/Day18/Day18.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/2022/Day18/Day18.cpp.o
+.PHONY : 2022/Day18/Day18.cpp.o
+
+2022/Day18/Day18.i: 2022/Day18/Day18.cpp.i
+.PHONY : 2022/Day18/Day18.i
+
+# target to preprocess a source file
+2022/Day18/Day18.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/2022/Day18/Day18.cpp.i
+.PHONY : 2022/Day18/Day18.cpp.i
+
+2022/Day18/Day18.s: 2022/Day18/Day18.cpp.s
+.PHONY : 2022/Day18/Day18.s
+
+# target to generate assembly for a file
+2022/Day18/Day18.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/2022/Day18/Day18.cpp.s
+.PHONY : 2022/Day18/Day18.cpp.s
+
+2022/Day20/Day20.o: 2022/Day20/Day20.cpp.o
+.PHONY : 2022/Day20/Day20.o
+
+# target to build an object file
+2022/Day20/Day20.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/2022/Day20/Day20.cpp.o
+.PHONY : 2022/Day20/Day20.cpp.o
+
+2022/Day20/Day20.i: 2022/Day20/Day20.cpp.i
+.PHONY : 2022/Day20/Day20.i
+
+# target to preprocess a source file
+2022/Day20/Day20.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/2022/Day20/Day20.cpp.i
+.PHONY : 2022/Day20/Day20.cpp.i
+
+2022/Day20/Day20.s: 2022/Day20/Day20.cpp.s
+.PHONY : 2022/Day20/Day20.s
+
+# target to generate assembly for a file
+2022/Day20/Day20.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/2022/Day20/Day20.cpp.s
+.PHONY : 2022/Day20/Day20.cpp.s
+
+2022/Day25/Day25.o: 2022/Day25/Day25.cpp.o
+.PHONY : 2022/Day25/Day25.o
+
+# target to build an object file
+2022/Day25/Day25.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/2022/Day25/Day25.cpp.o
+.PHONY : 2022/Day25/Day25.cpp.o
+
+2022/Day25/Day25.i: 2022/Day25/Day25.cpp.i
+.PHONY : 2022/Day25/Day25.i
+
+# target to preprocess a source file
+2022/Day25/Day25.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/2022/Day25/Day25.cpp.i
+.PHONY : 2022/Day25/Day25.cpp.i
+
+2022/Day25/Day25.s: 2022/Day25/Day25.cpp.s
+.PHONY : 2022/Day25/Day25.s
+
+# target to generate assembly for a file
+2022/Day25/Day25.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/2022/Day25/Day25.cpp.s
+.PHONY : 2022/Day25/Day25.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1360,7 +1890,12 @@ help:
 	@echo "... 2015_02"
 	@echo "... 2015_03"
 	@echo "... 2015_04"
+	@echo "... 2015_05"
 	@echo "... 2015_09"
+	@echo "... 2015_10"
+	@echo "... 2015_12"
+	@echo "... 2015_14"
+	@echo "... 2015_17"
 	@echo "... 2016_01"
 	@echo "... 2016_02"
 	@echo "... 2016_03"
@@ -1386,8 +1921,17 @@ help:
 	@echo "... 2022_02"
 	@echo "... 2022_03"
 	@echo "... 2022_04"
+	@echo "... 2022_05"
+	@echo "... 2022_05_2"
 	@echo "... 2022_06"
+	@echo "... 2022_07"
+	@echo "... 2022_08"
+	@echo "... 2022_09"
+	@echo "... 2022_10"
 	@echo "... 2022_12"
+	@echo "... 2022_18"
+	@echo "... 2022_20"
+	@echo "... 2022_25"
 	@echo "... 2015/Day01/Day01.o"
 	@echo "... 2015/Day01/Day01.i"
 	@echo "... 2015/Day01/Day01.s"
@@ -1397,15 +1941,30 @@ help:
 	@echo "... 2015/Day03/Day03.o"
 	@echo "... 2015/Day03/Day03.i"
 	@echo "... 2015/Day03/Day03.s"
-	@echo "... 2015/Day04/Day04.txt.o"
-	@echo "... 2015/Day04/Day04.txt.i"
-	@echo "... 2015/Day04/Day04.txt.s"
+	@echo "... 2015/Day04/Day04.o"
+	@echo "... 2015/Day04/Day04.i"
+	@echo "... 2015/Day04/Day04.s"
+	@echo "... 2015/Day05/Day05.o"
+	@echo "... 2015/Day05/Day05.i"
+	@echo "... 2015/Day05/Day05.s"
 	@echo "... 2015/Day09/Day09.o"
 	@echo "... 2015/Day09/Day09.i"
 	@echo "... 2015/Day09/Day09.s"
 	@echo "... 2015/Day09/main.o"
 	@echo "... 2015/Day09/main.i"
 	@echo "... 2015/Day09/main.s"
+	@echo "... 2015/Day10/Day10.o"
+	@echo "... 2015/Day10/Day10.i"
+	@echo "... 2015/Day10/Day10.s"
+	@echo "... 2015/Day12/Day12.o"
+	@echo "... 2015/Day12/Day12.i"
+	@echo "... 2015/Day12/Day12.s"
+	@echo "... 2015/Day14/Day14.o"
+	@echo "... 2015/Day14/Day14.i"
+	@echo "... 2015/Day14/Day14.s"
+	@echo "... 2015/Day17/Day17.o"
+	@echo "... 2015/Day17/Day17.i"
+	@echo "... 2015/Day17/Day17.s"
 	@echo "... 2016/Day01/Day01.o"
 	@echo "... 2016/Day01/Day01.i"
 	@echo "... 2016/Day01/Day01.s"
@@ -1481,15 +2040,42 @@ help:
 	@echo "... 2022/Day04/Day04.o"
 	@echo "... 2022/Day04/Day04.i"
 	@echo "... 2022/Day04/Day04.s"
+	@echo "... 2022/Day05/Day05.o"
+	@echo "... 2022/Day05/Day05.i"
+	@echo "... 2022/Day05/Day05.s"
+	@echo "... 2022/Day05/Day05_part2.o"
+	@echo "... 2022/Day05/Day05_part2.i"
+	@echo "... 2022/Day05/Day05_part2.s"
 	@echo "... 2022/Day06/Day06.o"
 	@echo "... 2022/Day06/Day06.i"
 	@echo "... 2022/Day06/Day06.s"
+	@echo "... 2022/Day07/Day07.o"
+	@echo "... 2022/Day07/Day07.i"
+	@echo "... 2022/Day07/Day07.s"
+	@echo "... 2022/Day08/Day08.o"
+	@echo "... 2022/Day08/Day08.i"
+	@echo "... 2022/Day08/Day08.s"
+	@echo "... 2022/Day09/Day09.o"
+	@echo "... 2022/Day09/Day09.i"
+	@echo "... 2022/Day09/Day09.s"
+	@echo "... 2022/Day10/Day10.o"
+	@echo "... 2022/Day10/Day10.i"
+	@echo "... 2022/Day10/Day10.s"
 	@echo "... 2022/Day12/Day12.o"
 	@echo "... 2022/Day12/Day12.i"
 	@echo "... 2022/Day12/Day12.s"
 	@echo "... 2022/Day12/main.o"
 	@echo "... 2022/Day12/main.i"
 	@echo "... 2022/Day12/main.s"
+	@echo "... 2022/Day18/Day18.o"
+	@echo "... 2022/Day18/Day18.i"
+	@echo "... 2022/Day18/Day18.s"
+	@echo "... 2022/Day20/Day20.o"
+	@echo "... 2022/Day20/Day20.i"
+	@echo "... 2022/Day20/Day20.s"
+	@echo "... 2022/Day25/Day25.o"
+	@echo "... 2022/Day25/Day25.i"
+	@echo "... 2022/Day25/Day25.s"
 .PHONY : help
 
 

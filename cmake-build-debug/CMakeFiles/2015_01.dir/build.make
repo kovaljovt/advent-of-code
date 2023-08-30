@@ -83,17 +83,81 @@ CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tibor/Desktop/advent-of-code/2015/Day01/Day01.cpp -o CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.s
 
+CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o: CMakeFiles/2015_01.dir/flags.make
+CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o: /home/tibor/Desktop/advent-of-code/2022/Day18/Day18.cpp
+CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o: CMakeFiles/2015_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o -MF CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o.d -o CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o -c /home/tibor/Desktop/advent-of-code/2022/Day18/Day18.cpp
+
+CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tibor/Desktop/advent-of-code/2022/Day18/Day18.cpp > CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.i
+
+CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tibor/Desktop/advent-of-code/2022/Day18/Day18.cpp -o CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.s
+
+CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o: CMakeFiles/2015_01.dir/flags.make
+CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o: /home/tibor/Desktop/advent-of-code/2022/Day25/Day25.cpp
+CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o: CMakeFiles/2015_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o -MF CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o.d -o CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o -c /home/tibor/Desktop/advent-of-code/2022/Day25/Day25.cpp
+
+CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tibor/Desktop/advent-of-code/2022/Day25/Day25.cpp > CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.i
+
+CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tibor/Desktop/advent-of-code/2022/Day25/Day25.cpp -o CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.s
+
+CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o: CMakeFiles/2015_01.dir/flags.make
+CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o: /home/tibor/Desktop/advent-of-code/2022/Day09/Day09.cpp
+CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o: CMakeFiles/2015_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o -MF CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o.d -o CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o -c /home/tibor/Desktop/advent-of-code/2022/Day09/Day09.cpp
+
+CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tibor/Desktop/advent-of-code/2022/Day09/Day09.cpp > CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.i
+
+CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tibor/Desktop/advent-of-code/2022/Day09/Day09.cpp -o CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.s
+
+CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o: CMakeFiles/2015_01.dir/flags.make
+CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o: /home/tibor/Desktop/advent-of-code/2022/Day20/Day20.cpp
+CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o: CMakeFiles/2015_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o -MF CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o.d -o CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o -c /home/tibor/Desktop/advent-of-code/2022/Day20/Day20.cpp
+
+CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tibor/Desktop/advent-of-code/2022/Day20/Day20.cpp > CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.i
+
+CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tibor/Desktop/advent-of-code/2022/Day20/Day20.cpp -o CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.s
+
 # Object files for target 2015_01
 2015_01_OBJECTS = \
-"CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o"
+"CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o" \
+"CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o" \
+"CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o" \
+"CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o" \
+"CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o"
 
 # External object files for target 2015_01
 2015_01_EXTERNAL_OBJECTS =
 
 2015_01: CMakeFiles/2015_01.dir/2015/Day01/Day01.cpp.o
+2015_01: CMakeFiles/2015_01.dir/2022/Day18/Day18.cpp.o
+2015_01: CMakeFiles/2015_01.dir/2022/Day25/Day25.cpp.o
+2015_01: CMakeFiles/2015_01.dir/2022/Day09/Day09.cpp.o
+2015_01: CMakeFiles/2015_01.dir/2022/Day20/Day20.cpp.o
 2015_01: CMakeFiles/2015_01.dir/build.make
 2015_01: CMakeFiles/2015_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2015_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 2015_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2015_01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -67,7 +67,12 @@ all: CMakeFiles/2015_01.dir/all
 all: CMakeFiles/2015_02.dir/all
 all: CMakeFiles/2015_03.dir/all
 all: CMakeFiles/2015_04.dir/all
+all: CMakeFiles/2015_05.dir/all
 all: CMakeFiles/2015_09.dir/all
+all: CMakeFiles/2015_10.dir/all
+all: CMakeFiles/2015_12.dir/all
+all: CMakeFiles/2015_14.dir/all
+all: CMakeFiles/2015_17.dir/all
 all: CMakeFiles/2016_01.dir/all
 all: CMakeFiles/2016_02.dir/all
 all: CMakeFiles/2016_03.dir/all
@@ -93,8 +98,17 @@ all: CMakeFiles/2022_01.dir/all
 all: CMakeFiles/2022_02.dir/all
 all: CMakeFiles/2022_03.dir/all
 all: CMakeFiles/2022_04.dir/all
+all: CMakeFiles/2022_05.dir/all
+all: CMakeFiles/2022_05_2.dir/all
 all: CMakeFiles/2022_06.dir/all
+all: CMakeFiles/2022_07.dir/all
+all: CMakeFiles/2022_08.dir/all
+all: CMakeFiles/2022_09.dir/all
+all: CMakeFiles/2022_10.dir/all
 all: CMakeFiles/2022_12.dir/all
+all: CMakeFiles/2022_18.dir/all
+all: CMakeFiles/2022_20.dir/all
+all: CMakeFiles/2022_25.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -106,7 +120,12 @@ clean: CMakeFiles/2015_01.dir/clean
 clean: CMakeFiles/2015_02.dir/clean
 clean: CMakeFiles/2015_03.dir/clean
 clean: CMakeFiles/2015_04.dir/clean
+clean: CMakeFiles/2015_05.dir/clean
 clean: CMakeFiles/2015_09.dir/clean
+clean: CMakeFiles/2015_10.dir/clean
+clean: CMakeFiles/2015_12.dir/clean
+clean: CMakeFiles/2015_14.dir/clean
+clean: CMakeFiles/2015_17.dir/clean
 clean: CMakeFiles/2016_01.dir/clean
 clean: CMakeFiles/2016_02.dir/clean
 clean: CMakeFiles/2016_03.dir/clean
@@ -132,8 +151,17 @@ clean: CMakeFiles/2022_01.dir/clean
 clean: CMakeFiles/2022_02.dir/clean
 clean: CMakeFiles/2022_03.dir/clean
 clean: CMakeFiles/2022_04.dir/clean
+clean: CMakeFiles/2022_05.dir/clean
+clean: CMakeFiles/2022_05_2.dir/clean
 clean: CMakeFiles/2022_06.dir/clean
+clean: CMakeFiles/2022_07.dir/clean
+clean: CMakeFiles/2022_08.dir/clean
+clean: CMakeFiles/2022_09.dir/clean
+clean: CMakeFiles/2022_10.dir/clean
 clean: CMakeFiles/2022_12.dir/clean
+clean: CMakeFiles/2022_18.dir/clean
+clean: CMakeFiles/2022_20.dir/clean
+clean: CMakeFiles/2022_25.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -143,12 +171,12 @@ clean: CMakeFiles/2022_12.dir/clean
 CMakeFiles/2015_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_01.dir/build.make CMakeFiles/2015_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2015_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target 2015_01"
 .PHONY : CMakeFiles/2015_01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2015_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2015_01.dir/rule
@@ -169,7 +197,7 @@ CMakeFiles/2015_01.dir/clean:
 CMakeFiles/2015_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_02.dir/build.make CMakeFiles/2015_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_02.dir/build.make CMakeFiles/2015_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 2015_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 2015_02"
 .PHONY : CMakeFiles/2015_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -195,7 +223,7 @@ CMakeFiles/2015_02.dir/clean:
 CMakeFiles/2015_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_03.dir/build.make CMakeFiles/2015_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_03.dir/build.make CMakeFiles/2015_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 2015_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 2015_03"
 .PHONY : CMakeFiles/2015_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +249,7 @@ CMakeFiles/2015_03.dir/clean:
 CMakeFiles/2015_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_04.dir/build.make CMakeFiles/2015_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 2015_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 2015_04"
 .PHONY : CMakeFiles/2015_04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,13 +269,39 @@ CMakeFiles/2015_04.dir/clean:
 .PHONY : CMakeFiles/2015_04.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2015_05.dir
+
+# All Build rule for target.
+CMakeFiles/2015_05.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 2015_05"
+.PHONY : CMakeFiles/2015_05.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2015_05.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_05.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2015_05.dir/rule
+
+# Convenience name for target.
+2015_05: CMakeFiles/2015_05.dir/rule
+.PHONY : 2015_05
+
+# clean rule for target.
+CMakeFiles/2015_05.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_05.dir/build.make CMakeFiles/2015_05.dir/clean
+.PHONY : CMakeFiles/2015_05.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2015_09.dir
 
 # All Build rule for target.
 CMakeFiles/2015_09.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_09.dir/build.make CMakeFiles/2015_09.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_09.dir/build.make CMakeFiles/2015_09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target 2015_09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target 2015_09"
 .PHONY : CMakeFiles/2015_09.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,13 +321,117 @@ CMakeFiles/2015_09.dir/clean:
 .PHONY : CMakeFiles/2015_09.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2015_10.dir
+
+# All Build rule for target.
+CMakeFiles/2015_10.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target 2015_10"
+.PHONY : CMakeFiles/2015_10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2015_10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2015_10.dir/rule
+
+# Convenience name for target.
+2015_10: CMakeFiles/2015_10.dir/rule
+.PHONY : 2015_10
+
+# clean rule for target.
+CMakeFiles/2015_10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_10.dir/build.make CMakeFiles/2015_10.dir/clean
+.PHONY : CMakeFiles/2015_10.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2015_12.dir
+
+# All Build rule for target.
+CMakeFiles/2015_12.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target 2015_12"
+.PHONY : CMakeFiles/2015_12.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2015_12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2015_12.dir/rule
+
+# Convenience name for target.
+2015_12: CMakeFiles/2015_12.dir/rule
+.PHONY : 2015_12
+
+# clean rule for target.
+CMakeFiles/2015_12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_12.dir/build.make CMakeFiles/2015_12.dir/clean
+.PHONY : CMakeFiles/2015_12.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2015_14.dir
+
+# All Build rule for target.
+CMakeFiles/2015_14.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target 2015_14"
+.PHONY : CMakeFiles/2015_14.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2015_14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_14.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2015_14.dir/rule
+
+# Convenience name for target.
+2015_14: CMakeFiles/2015_14.dir/rule
+.PHONY : 2015_14
+
+# clean rule for target.
+CMakeFiles/2015_14.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_14.dir/build.make CMakeFiles/2015_14.dir/clean
+.PHONY : CMakeFiles/2015_14.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2015_17.dir
+
+# All Build rule for target.
+CMakeFiles/2015_17.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target 2015_17"
+.PHONY : CMakeFiles/2015_17.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2015_17.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2015_17.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2015_17.dir/rule
+
+# Convenience name for target.
+2015_17: CMakeFiles/2015_17.dir/rule
+.PHONY : 2015_17
+
+# clean rule for target.
+CMakeFiles/2015_17.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2015_17.dir/build.make CMakeFiles/2015_17.dir/clean
+.PHONY : CMakeFiles/2015_17.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2016_01.dir
 
 # All Build rule for target.
 CMakeFiles/2016_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_01.dir/build.make CMakeFiles/2016_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_01.dir/build.make CMakeFiles/2016_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target 2016_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target 2016_01"
 .PHONY : CMakeFiles/2016_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +457,7 @@ CMakeFiles/2016_01.dir/clean:
 CMakeFiles/2016_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_02.dir/build.make CMakeFiles/2016_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_02.dir/build.make CMakeFiles/2016_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target 2016_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target 2016_02"
 .PHONY : CMakeFiles/2016_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -325,7 +483,7 @@ CMakeFiles/2016_02.dir/clean:
 CMakeFiles/2016_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_03.dir/build.make CMakeFiles/2016_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2016_03.dir/build.make CMakeFiles/2016_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target 2016_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target 2016_03"
 .PHONY : CMakeFiles/2016_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,7 +509,7 @@ CMakeFiles/2016_03.dir/clean:
 CMakeFiles/2017_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_01.dir/build.make CMakeFiles/2017_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_01.dir/build.make CMakeFiles/2017_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target 2017_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target 2017_01"
 .PHONY : CMakeFiles/2017_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,7 +535,7 @@ CMakeFiles/2017_01.dir/clean:
 CMakeFiles/2017_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_02.dir/build.make CMakeFiles/2017_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_02.dir/build.make CMakeFiles/2017_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target 2017_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target 2017_02"
 .PHONY : CMakeFiles/2017_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -403,7 +561,7 @@ CMakeFiles/2017_02.dir/clean:
 CMakeFiles/2017_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_04.dir/build.make CMakeFiles/2017_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_04.dir/build.make CMakeFiles/2017_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target 2017_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target 2017_04"
 .PHONY : CMakeFiles/2017_04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -429,7 +587,7 @@ CMakeFiles/2017_04.dir/clean:
 CMakeFiles/2017_05.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_05.dir/build.make CMakeFiles/2017_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_05.dir/build.make CMakeFiles/2017_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target 2017_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target 2017_05"
 .PHONY : CMakeFiles/2017_05.dir/all
 
 # Build rule for subdir invocation for target.
@@ -455,7 +613,7 @@ CMakeFiles/2017_05.dir/clean:
 CMakeFiles/2018_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_01.dir/build.make CMakeFiles/2018_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_01.dir/build.make CMakeFiles/2018_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target 2018_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target 2018_01"
 .PHONY : CMakeFiles/2018_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -481,7 +639,7 @@ CMakeFiles/2018_01.dir/clean:
 CMakeFiles/2018_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_02.dir/build.make CMakeFiles/2018_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_02.dir/build.make CMakeFiles/2018_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target 2018_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target 2018_02"
 .PHONY : CMakeFiles/2018_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -507,7 +665,7 @@ CMakeFiles/2018_02.dir/clean:
 CMakeFiles/2018_05.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_05.dir/build.make CMakeFiles/2018_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_05.dir/build.make CMakeFiles/2018_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target 2018_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target 2018_05"
 .PHONY : CMakeFiles/2018_05.dir/all
 
 # Build rule for subdir invocation for target.
@@ -533,7 +691,7 @@ CMakeFiles/2018_05.dir/clean:
 CMakeFiles/2019_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_01.dir/build.make CMakeFiles/2019_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_01.dir/build.make CMakeFiles/2019_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target 2019_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target 2019_01"
 .PHONY : CMakeFiles/2019_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -559,7 +717,7 @@ CMakeFiles/2019_01.dir/clean:
 CMakeFiles/2019_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_02.dir/build.make CMakeFiles/2019_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_02.dir/build.make CMakeFiles/2019_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target 2019_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target 2019_02"
 .PHONY : CMakeFiles/2019_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -585,7 +743,7 @@ CMakeFiles/2019_02.dir/clean:
 CMakeFiles/2020_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_01.dir/build.make CMakeFiles/2020_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_01.dir/build.make CMakeFiles/2020_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target 2020_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target 2020_01"
 .PHONY : CMakeFiles/2020_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -611,7 +769,7 @@ CMakeFiles/2020_01.dir/clean:
 CMakeFiles/2020_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_02.dir/build.make CMakeFiles/2020_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_02.dir/build.make CMakeFiles/2020_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target 2020_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target 2020_02"
 .PHONY : CMakeFiles/2020_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -637,7 +795,7 @@ CMakeFiles/2020_02.dir/clean:
 CMakeFiles/2020_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_03.dir/build.make CMakeFiles/2020_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_03.dir/build.make CMakeFiles/2020_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target 2020_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target 2020_03"
 .PHONY : CMakeFiles/2020_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -663,7 +821,7 @@ CMakeFiles/2020_03.dir/clean:
 CMakeFiles/2020_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_06.dir/build.make CMakeFiles/2020_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_06.dir/build.make CMakeFiles/2020_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target 2020_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target 2020_06"
 .PHONY : CMakeFiles/2020_06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -689,7 +847,7 @@ CMakeFiles/2020_06.dir/clean:
 CMakeFiles/2020_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12.dir/build.make CMakeFiles/2020_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target 2020_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target 2020_12"
 .PHONY : CMakeFiles/2020_12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -715,7 +873,7 @@ CMakeFiles/2020_12.dir/clean:
 CMakeFiles/2020_12_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_12_2.dir/build.make CMakeFiles/2020_12_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target 2020_12_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target 2020_12_2"
 .PHONY : CMakeFiles/2020_12_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -741,7 +899,7 @@ CMakeFiles/2020_12_2.dir/clean:
 CMakeFiles/2021_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_01.dir/build.make CMakeFiles/2021_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_01.dir/build.make CMakeFiles/2021_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target 2021_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target 2021_01"
 .PHONY : CMakeFiles/2021_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -767,7 +925,7 @@ CMakeFiles/2021_01.dir/clean:
 CMakeFiles/2021_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_02.dir/build.make CMakeFiles/2021_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_02.dir/build.make CMakeFiles/2021_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target 2021_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target 2021_02"
 .PHONY : CMakeFiles/2021_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -793,7 +951,7 @@ CMakeFiles/2021_02.dir/clean:
 CMakeFiles/2021_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_03.dir/build.make CMakeFiles/2021_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2021_03.dir/build.make CMakeFiles/2021_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target 2021_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target 2021_03"
 .PHONY : CMakeFiles/2021_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -819,7 +977,7 @@ CMakeFiles/2021_03.dir/clean:
 CMakeFiles/2022_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_01.dir/build.make CMakeFiles/2022_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_01.dir/build.make CMakeFiles/2022_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target 2022_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target 2022_01"
 .PHONY : CMakeFiles/2022_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -845,7 +1003,7 @@ CMakeFiles/2022_01.dir/clean:
 CMakeFiles/2022_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_02.dir/build.make CMakeFiles/2022_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_02.dir/build.make CMakeFiles/2022_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target 2022_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target 2022_02"
 .PHONY : CMakeFiles/2022_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -871,7 +1029,7 @@ CMakeFiles/2022_02.dir/clean:
 CMakeFiles/2022_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_03.dir/build.make CMakeFiles/2022_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_03.dir/build.make CMakeFiles/2022_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target 2022_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target 2022_03"
 .PHONY : CMakeFiles/2022_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -897,7 +1055,7 @@ CMakeFiles/2022_03.dir/clean:
 CMakeFiles/2022_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_04.dir/build.make CMakeFiles/2022_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_04.dir/build.make CMakeFiles/2022_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target 2022_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=74,75 "Built target 2022_04"
 .PHONY : CMakeFiles/2022_04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -917,13 +1075,65 @@ CMakeFiles/2022_04.dir/clean:
 .PHONY : CMakeFiles/2022_04.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2022_05.dir
+
+# All Build rule for target.
+CMakeFiles/2022_05.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=76,77 "Built target 2022_05"
+.PHONY : CMakeFiles/2022_05.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_05.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_05.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_05.dir/rule
+
+# Convenience name for target.
+2022_05: CMakeFiles/2022_05.dir/rule
+.PHONY : 2022_05
+
+# clean rule for target.
+CMakeFiles/2022_05.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05.dir/build.make CMakeFiles/2022_05.dir/clean
+.PHONY : CMakeFiles/2022_05.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_05_2.dir
+
+# All Build rule for target.
+CMakeFiles/2022_05_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=78,79 "Built target 2022_05_2"
+.PHONY : CMakeFiles/2022_05_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_05_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_05_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_05_2.dir/rule
+
+# Convenience name for target.
+2022_05_2: CMakeFiles/2022_05_2.dir/rule
+.PHONY : 2022_05_2
+
+# clean rule for target.
+CMakeFiles/2022_05_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_05_2.dir/build.make CMakeFiles/2022_05_2.dir/clean
+.PHONY : CMakeFiles/2022_05_2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2022_06.dir
 
 # All Build rule for target.
 CMakeFiles/2022_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_06.dir/build.make CMakeFiles/2022_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_06.dir/build.make CMakeFiles/2022_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target 2022_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=80,81 "Built target 2022_06"
 .PHONY : CMakeFiles/2022_06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -943,13 +1153,117 @@ CMakeFiles/2022_06.dir/clean:
 .PHONY : CMakeFiles/2022_06.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2022_07.dir
+
+# All Build rule for target.
+CMakeFiles/2022_07.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=82,83 "Built target 2022_07"
+.PHONY : CMakeFiles/2022_07.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_07.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_07.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_07.dir/rule
+
+# Convenience name for target.
+2022_07: CMakeFiles/2022_07.dir/rule
+.PHONY : 2022_07
+
+# clean rule for target.
+CMakeFiles/2022_07.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_07.dir/build.make CMakeFiles/2022_07.dir/clean
+.PHONY : CMakeFiles/2022_07.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_08.dir
+
+# All Build rule for target.
+CMakeFiles/2022_08.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target 2022_08"
+.PHONY : CMakeFiles/2022_08.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_08.dir/rule
+
+# Convenience name for target.
+2022_08: CMakeFiles/2022_08.dir/rule
+.PHONY : 2022_08
+
+# clean rule for target.
+CMakeFiles/2022_08.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_08.dir/build.make CMakeFiles/2022_08.dir/clean
+.PHONY : CMakeFiles/2022_08.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_09.dir
+
+# All Build rule for target.
+CMakeFiles/2022_09.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target 2022_09"
+.PHONY : CMakeFiles/2022_09.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_09.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_09.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_09.dir/rule
+
+# Convenience name for target.
+2022_09: CMakeFiles/2022_09.dir/rule
+.PHONY : 2022_09
+
+# clean rule for target.
+CMakeFiles/2022_09.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_09.dir/build.make CMakeFiles/2022_09.dir/clean
+.PHONY : CMakeFiles/2022_09.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_10.dir
+
+# All Build rule for target.
+CMakeFiles/2022_10.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=88,89 "Built target 2022_10"
+.PHONY : CMakeFiles/2022_10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_10.dir/rule
+
+# Convenience name for target.
+2022_10: CMakeFiles/2022_10.dir/rule
+.PHONY : 2022_10
+
+# clean rule for target.
+CMakeFiles/2022_10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_10.dir/build.make CMakeFiles/2022_10.dir/clean
+.PHONY : CMakeFiles/2022_10.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2022_12.dir
 
 # All Build rule for target.
 CMakeFiles/2022_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_12.dir/build.make CMakeFiles/2022_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_12.dir/build.make CMakeFiles/2022_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=64,65,66 "Built target 2022_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=90,91,92 "Built target 2022_12"
 .PHONY : CMakeFiles/2022_12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -967,6 +1281,84 @@ CMakeFiles/2022_12.dir/rule: cmake_check_build_system
 CMakeFiles/2022_12.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_12.dir/build.make CMakeFiles/2022_12.dir/clean
 .PHONY : CMakeFiles/2022_12.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_18.dir
+
+# All Build rule for target.
+CMakeFiles/2022_18.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target 2022_18"
+.PHONY : CMakeFiles/2022_18.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_18.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_18.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_18.dir/rule
+
+# Convenience name for target.
+2022_18: CMakeFiles/2022_18.dir/rule
+.PHONY : 2022_18
+
+# clean rule for target.
+CMakeFiles/2022_18.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_18.dir/build.make CMakeFiles/2022_18.dir/clean
+.PHONY : CMakeFiles/2022_18.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_20.dir
+
+# All Build rule for target.
+CMakeFiles/2022_20.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target 2022_20"
+.PHONY : CMakeFiles/2022_20.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_20.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_20.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_20.dir/rule
+
+# Convenience name for target.
+2022_20: CMakeFiles/2022_20.dir/rule
+.PHONY : 2022_20
+
+# clean rule for target.
+CMakeFiles/2022_20.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_20.dir/build.make CMakeFiles/2022_20.dir/clean
+.PHONY : CMakeFiles/2022_20.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2022_25.dir
+
+# All Build rule for target.
+CMakeFiles/2022_25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles --progress-num=97,98 "Built target 2022_25"
+.PHONY : CMakeFiles/2022_25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2022_25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2022_25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2022_25.dir/rule
+
+# Convenience name for target.
+2022_25: CMakeFiles/2022_25.dir/rule
+.PHONY : 2022_25
+
+# clean rule for target.
+CMakeFiles/2022_25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2022_25.dir/build.make CMakeFiles/2022_25.dir/clean
+.PHONY : CMakeFiles/2022_25.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

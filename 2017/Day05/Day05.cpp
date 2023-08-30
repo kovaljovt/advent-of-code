@@ -3,7 +3,7 @@
 #include <vector>
 #include <fstream>
 
-std::vector<int> parseInput(const std::string &filePath) {
+std::vector<std::string> parseInput(const std::string &filePath) {
     std::fstream input(filePath);
     std::string line;
     std::vector<int> output;

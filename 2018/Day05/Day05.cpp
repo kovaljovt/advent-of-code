@@ -2,8 +2,9 @@
 #include <string>
 #include <cmath>
 #include <fstream>
+#include <vector>
 
-std::string parseInput(const std::string &filePath) {
+std::vector<std::string> parseInput(const std::string &filePath) {
     std::fstream input(filePath);
     std::string output;
     std::getline(input, output);
