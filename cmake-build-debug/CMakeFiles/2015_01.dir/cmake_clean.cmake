@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/2015_01.dir/2015/Day04/Day04.txt.cpp.o.d"
   "CMakeFiles/2015_01.dir/2017/Day04/Day04.cpp.o"
   "CMakeFiles/2015_01.dir/2017/Day04/Day04.cpp.o.d"
+  "CMakeFiles/2015_01.dir/2017/Day05/Day05.cpp.o"
+  "CMakeFiles/2015_01.dir/2017/Day05/Day05.cpp.o.d"
   "CMakeFiles/2015_01.dir/2020/Day12/Day12.cpp.o"
   "CMakeFiles/2015_01.dir/2020/Day12/Day12.cpp.o.d"
   "CMakeFiles/2015_01.dir/2020/Day12/Day12part2.cpp.o"

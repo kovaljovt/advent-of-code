@@ -16,7 +16,6 @@ std::vector<std::string> parseInput(const std::string &filePath) {
 }
 
 
-
 std::string sortString(const std::string &str) {
     std::string sorted = str;
     std::sort(sorted.begin(), sorted.end());
