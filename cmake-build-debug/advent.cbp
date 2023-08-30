@@ -633,6 +633,50 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2018_05">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_05"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2018_05/fast">
+				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2018_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 2018_05/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tibor/Desktop/advent-of-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="2019_01">
 				<Option output="/home/tibor/Desktop/advent-of-code/cmake-build-debug/2019_01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/tibor/Desktop/advent-of-code/cmake-build-debug"/>
@@ -1412,7 +1456,6 @@
 			<Option target="2015_03"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day04/Day04.txt.cpp">
-			<Option target="2015_01"/>
 			<Option target="2015_04"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2015/Day09/Day09.cpp">
@@ -1440,11 +1483,9 @@
 			<Option target="2017_02"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2017/Day04/Day04.cpp">
-			<Option target="2015_01"/>
 			<Option target="2017_04"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2017/Day05/Day05.cpp">
-			<Option target="2015_01"/>
 			<Option target="2017_05"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2018/Day01/Day01.cpp">
@@ -1452,6 +1493,9 @@
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2018/Day02/Day02.cpp">
 			<Option target="2018_02"/>
+		</Unit>
+		<Unit filename="/home/tibor/Desktop/advent-of-code/2018/Day05/Day05.cpp">
+			<Option target="2018_05"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2019/Day01/Day01.cpp">
 			<Option target="2019_01"/>
@@ -1472,11 +1516,9 @@
 			<Option target="2020_06"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day12/Day12.cpp">
-			<Option target="2015_01"/>
 			<Option target="2020_12"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2020/Day12/Day12part2.cpp">
-			<Option target="2015_01"/>
 			<Option target="2020_12_2"/>
 		</Unit>
 		<Unit filename="/home/tibor/Desktop/advent-of-code/2021/Day01/Day01.cpp">

@@ -12,6 +12,7 @@
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2017_05.dir
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2018_01.dir
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2018_02.dir
+/home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2018_05.dir
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2019_01.dir
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2019_02.dir
 /home/tibor/Desktop/advent-of-code/cmake-build-debug/CMakeFiles/2020_01.dir
