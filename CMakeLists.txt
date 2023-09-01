@@ -3,11 +3,7 @@ project(advent)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(2015_01 2015/Day01/Day01.cpp
-        2022/Day18/Day18.cpp
-        2022/Day25/Day25.cpp
-        2022/Day09/Day09.cpp
-        2022/Day20/Day20.cpp)
+add_executable(2015_01 2015/Day01/Day01.cpp)
 add_executable(2015_02 2015/Day02/Day02.cpp)
 add_executable(2015_03 2015/Day03/Day03.cpp)
 add_executable(2015_04 2015/Day04/Day04.cpp)
@@ -26,6 +22,7 @@ add_executable(2017_01 2017/Day01/Day01.cpp)
 add_executable(2017_02 2017/Day02/Day02.cpp)
 add_executable(2017_04 2017/Day04/Day04.cpp)
 add_executable(2017_05 2017/Day05/Day05.cpp)
+add_executable(2017_09 2017/Day09/Day09.cpp)
 
 add_executable(2018_01 2018/Day01/Day01.cpp)
 add_executable(2018_02 2018/Day02/Day02.cpp)

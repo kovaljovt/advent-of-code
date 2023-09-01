@@ -1,4 +1,4 @@
 /home/tibor/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/tibor/Desktop/advent-of-code -B /home/tibor/Desktop/advent-of-code/cmake-build-debug
 -- Configuring done (0.0s)
--- Generating done (0.0s)
+-- Generating done (0.1s)
 -- Build files have been written to: /home/tibor/Desktop/advent-of-code/cmake-build-debug
