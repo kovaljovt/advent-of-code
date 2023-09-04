@@ -23,6 +23,7 @@ add_executable(2017_02 2017/Day02/Day02.cpp)
 add_executable(2017_04 2017/Day04/Day04.cpp)
 add_executable(2017_05 2017/Day05/Day05.cpp)
 add_executable(2017_09 2017/Day09/Day09.cpp)
+add_executable(2017_23 2017/Day23/Day23.cpp)
 
 add_executable(2018_01 2018/Day01/Day01.cpp)
 add_executable(2018_02 2018/Day02/Day02.cpp)
