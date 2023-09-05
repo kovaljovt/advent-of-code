@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/2016_01.dir/2016/Day01/Day01.cpp.o -o 2016_01 

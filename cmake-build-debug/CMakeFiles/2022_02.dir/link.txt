@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/2022_02.dir/2022/Day02/Day02.cpp.o -o 2022_02 

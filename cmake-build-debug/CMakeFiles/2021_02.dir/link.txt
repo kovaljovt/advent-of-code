@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/2021_02.dir/2021/Day02/Day02.cpp.o -o 2021_02 

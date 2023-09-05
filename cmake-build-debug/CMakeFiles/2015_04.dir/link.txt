@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/2015_04.dir/2015/Day04/Day04.cpp.o -o 2015_04 
