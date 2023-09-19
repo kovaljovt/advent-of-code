@@ -27,7 +27,7 @@ int part1(const std::string &data) {
         } else if (character == '>') {
             garbage = false;
         } else if (garbage) {
-            // Process garbage character (if needed)
+            // Process garbage character
         } else if (character == '<') {
             garbage = true;
         } else if (character == '{') {

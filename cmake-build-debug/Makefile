@@ -312,6 +312,19 @@ depend:
 .PHONY : 2017_02/fast
 
 #=============================================================================
+# Target rules for targets named 2017_03
+
+# Build rule for target.
+2017_03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2017_03
+.PHONY : 2017_03
+
+# fast build rule for target.
+2017_03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_03.dir/build.make CMakeFiles/2017_03.dir/build
+.PHONY : 2017_03/fast
+
+#=============================================================================
 # Target rules for targets named 2017_04
 
 # Build rule for target.
@@ -364,6 +377,19 @@ depend:
 .PHONY : 2017_11/fast
 
 #=============================================================================
+# Target rules for targets named 2017_20
+
+# Build rule for target.
+2017_20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2017_20
+.PHONY : 2017_20
+
+# fast build rule for target.
+2017_20/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_20.dir/build.make CMakeFiles/2017_20.dir/build
+.PHONY : 2017_20/fast
+
+#=============================================================================
 # Target rules for targets named 2018_01
 
 # Build rule for target.
@@ -388,6 +414,19 @@ depend:
 2018_02/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_02.dir/build.make CMakeFiles/2018_02.dir/build
 .PHONY : 2018_02/fast
+
+#=============================================================================
+# Target rules for targets named 2018_03
+
+# Build rule for target.
+2018_03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2018_03
+.PHONY : 2018_03
+
+# fast build rule for target.
+2018_03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_03.dir/build.make CMakeFiles/2018_03.dir/build
+.PHONY : 2018_03/fast
 
 #=============================================================================
 # Target rules for targets named 2018_05
@@ -429,6 +468,32 @@ depend:
 .PHONY : 2019_02/fast
 
 #=============================================================================
+# Target rules for targets named 2019_03
+
+# Build rule for target.
+2019_03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2019_03
+.PHONY : 2019_03
+
+# fast build rule for target.
+2019_03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_03.dir/build.make CMakeFiles/2019_03.dir/build
+.PHONY : 2019_03/fast
+
+#=============================================================================
+# Target rules for targets named 2019_04
+
+# Build rule for target.
+2019_04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2019_04
+.PHONY : 2019_04
+
+# fast build rule for target.
+2019_04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_04.dir/build.make CMakeFiles/2019_04.dir/build
+.PHONY : 2019_04/fast
+
+#=============================================================================
 # Target rules for targets named 2020_01
 
 # Build rule for target.
@@ -466,6 +531,19 @@ depend:
 2020_03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_03.dir/build.make CMakeFiles/2020_03.dir/build
 .PHONY : 2020_03/fast
+
+#=============================================================================
+# Target rules for targets named 2020_04
+
+# Build rule for target.
+2020_04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2020_04
+.PHONY : 2020_04
+
+# fast build rule for target.
+2020_04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_04.dir/build.make CMakeFiles/2020_04.dir/build
+.PHONY : 2020_04/fast
 
 #=============================================================================
 # Target rules for targets named 2020_06
@@ -1124,6 +1202,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_02.dir/build.make CMakeFiles/2017_02.dir/2017/Day02/Day02.cpp.s
 .PHONY : 2017/Day02/Day02.cpp.s
 
+2017/Day03/Day03.o: 2017/Day03/Day03.cpp.o
+.PHONY : 2017/Day03/Day03.o
+
+# target to build an object file
+2017/Day03/Day03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_03.dir/build.make CMakeFiles/2017_03.dir/2017/Day03/Day03.cpp.o
+.PHONY : 2017/Day03/Day03.cpp.o
+
+2017/Day03/Day03.i: 2017/Day03/Day03.cpp.i
+.PHONY : 2017/Day03/Day03.i
+
+# target to preprocess a source file
+2017/Day03/Day03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_03.dir/build.make CMakeFiles/2017_03.dir/2017/Day03/Day03.cpp.i
+.PHONY : 2017/Day03/Day03.cpp.i
+
+2017/Day03/Day03.s: 2017/Day03/Day03.cpp.s
+.PHONY : 2017/Day03/Day03.s
+
+# target to generate assembly for a file
+2017/Day03/Day03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_03.dir/build.make CMakeFiles/2017_03.dir/2017/Day03/Day03.cpp.s
+.PHONY : 2017/Day03/Day03.cpp.s
+
 2017/Day04/Day04.o: 2017/Day04/Day04.cpp.o
 .PHONY : 2017/Day04/Day04.o
 
@@ -1220,6 +1322,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_11.dir/build.make CMakeFiles/2017_11.dir/2017/Day11/Day11.cpp.s
 .PHONY : 2017/Day11/Day11.cpp.s
 
+2017/Day11/main.o: 2017/Day11/main.cpp.o
+.PHONY : 2017/Day11/main.o
+
+# target to build an object file
+2017/Day11/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_11.dir/build.make CMakeFiles/2017_11.dir/2017/Day11/main.cpp.o
+.PHONY : 2017/Day11/main.cpp.o
+
+2017/Day11/main.i: 2017/Day11/main.cpp.i
+.PHONY : 2017/Day11/main.i
+
+# target to preprocess a source file
+2017/Day11/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_11.dir/build.make CMakeFiles/2017_11.dir/2017/Day11/main.cpp.i
+.PHONY : 2017/Day11/main.cpp.i
+
+2017/Day11/main.s: 2017/Day11/main.cpp.s
+.PHONY : 2017/Day11/main.s
+
+# target to generate assembly for a file
+2017/Day11/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_11.dir/build.make CMakeFiles/2017_11.dir/2017/Day11/main.cpp.s
+.PHONY : 2017/Day11/main.cpp.s
+
+2017/Day20/Day20.o: 2017/Day20/Day20.cpp.o
+.PHONY : 2017/Day20/Day20.o
+
+# target to build an object file
+2017/Day20/Day20.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_20.dir/build.make CMakeFiles/2017_20.dir/2017/Day20/Day20.cpp.o
+.PHONY : 2017/Day20/Day20.cpp.o
+
+2017/Day20/Day20.i: 2017/Day20/Day20.cpp.i
+.PHONY : 2017/Day20/Day20.i
+
+# target to preprocess a source file
+2017/Day20/Day20.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_20.dir/build.make CMakeFiles/2017_20.dir/2017/Day20/Day20.cpp.i
+.PHONY : 2017/Day20/Day20.cpp.i
+
+2017/Day20/Day20.s: 2017/Day20/Day20.cpp.s
+.PHONY : 2017/Day20/Day20.s
+
+# target to generate assembly for a file
+2017/Day20/Day20.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2017_20.dir/build.make CMakeFiles/2017_20.dir/2017/Day20/Day20.cpp.s
+.PHONY : 2017/Day20/Day20.cpp.s
+
 2018/Day01/Day01.o: 2018/Day01/Day01.cpp.o
 .PHONY : 2018/Day01/Day01.o
 
@@ -1267,6 +1417,30 @@ depend:
 2018/Day02/Day02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_02.dir/build.make CMakeFiles/2018_02.dir/2018/Day02/Day02.cpp.s
 .PHONY : 2018/Day02/Day02.cpp.s
+
+2018/Day03/Day03.o: 2018/Day03/Day03.cpp.o
+.PHONY : 2018/Day03/Day03.o
+
+# target to build an object file
+2018/Day03/Day03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_03.dir/build.make CMakeFiles/2018_03.dir/2018/Day03/Day03.cpp.o
+.PHONY : 2018/Day03/Day03.cpp.o
+
+2018/Day03/Day03.i: 2018/Day03/Day03.cpp.i
+.PHONY : 2018/Day03/Day03.i
+
+# target to preprocess a source file
+2018/Day03/Day03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_03.dir/build.make CMakeFiles/2018_03.dir/2018/Day03/Day03.cpp.i
+.PHONY : 2018/Day03/Day03.cpp.i
+
+2018/Day03/Day03.s: 2018/Day03/Day03.cpp.s
+.PHONY : 2018/Day03/Day03.s
+
+# target to generate assembly for a file
+2018/Day03/Day03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018_03.dir/build.make CMakeFiles/2018_03.dir/2018/Day03/Day03.cpp.s
+.PHONY : 2018/Day03/Day03.cpp.s
 
 2018/Day05/Day05.o: 2018/Day05/Day05.cpp.o
 .PHONY : 2018/Day05/Day05.o
@@ -1340,6 +1514,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_02.dir/build.make CMakeFiles/2019_02.dir/2019/Day02/Day02.cpp.s
 .PHONY : 2019/Day02/Day02.cpp.s
 
+2019/Day03/Day03.o: 2019/Day03/Day03.cpp.o
+.PHONY : 2019/Day03/Day03.o
+
+# target to build an object file
+2019/Day03/Day03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_03.dir/build.make CMakeFiles/2019_03.dir/2019/Day03/Day03.cpp.o
+.PHONY : 2019/Day03/Day03.cpp.o
+
+2019/Day03/Day03.i: 2019/Day03/Day03.cpp.i
+.PHONY : 2019/Day03/Day03.i
+
+# target to preprocess a source file
+2019/Day03/Day03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_03.dir/build.make CMakeFiles/2019_03.dir/2019/Day03/Day03.cpp.i
+.PHONY : 2019/Day03/Day03.cpp.i
+
+2019/Day03/Day03.s: 2019/Day03/Day03.cpp.s
+.PHONY : 2019/Day03/Day03.s
+
+# target to generate assembly for a file
+2019/Day03/Day03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_03.dir/build.make CMakeFiles/2019_03.dir/2019/Day03/Day03.cpp.s
+.PHONY : 2019/Day03/Day03.cpp.s
+
+2019/Day04/Day04.o: 2019/Day04/Day04.cpp.o
+.PHONY : 2019/Day04/Day04.o
+
+# target to build an object file
+2019/Day04/Day04.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_04.dir/build.make CMakeFiles/2019_04.dir/2019/Day04/Day04.cpp.o
+.PHONY : 2019/Day04/Day04.cpp.o
+
+2019/Day04/Day04.i: 2019/Day04/Day04.cpp.i
+.PHONY : 2019/Day04/Day04.i
+
+# target to preprocess a source file
+2019/Day04/Day04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_04.dir/build.make CMakeFiles/2019_04.dir/2019/Day04/Day04.cpp.i
+.PHONY : 2019/Day04/Day04.cpp.i
+
+2019/Day04/Day04.s: 2019/Day04/Day04.cpp.s
+.PHONY : 2019/Day04/Day04.s
+
+# target to generate assembly for a file
+2019/Day04/Day04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2019_04.dir/build.make CMakeFiles/2019_04.dir/2019/Day04/Day04.cpp.s
+.PHONY : 2019/Day04/Day04.cpp.s
+
 2020/Day01/Day01.o: 2020/Day01/Day01.cpp.o
 .PHONY : 2020/Day01/Day01.o
 
@@ -1411,6 +1633,30 @@ depend:
 2020/Day03/Day03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_03.dir/build.make CMakeFiles/2020_03.dir/2020/Day03/Day03.cpp.s
 .PHONY : 2020/Day03/Day03.cpp.s
+
+2020/Day04/Day04.o: 2020/Day04/Day04.cpp.o
+.PHONY : 2020/Day04/Day04.o
+
+# target to build an object file
+2020/Day04/Day04.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_04.dir/build.make CMakeFiles/2020_04.dir/2020/Day04/Day04.cpp.o
+.PHONY : 2020/Day04/Day04.cpp.o
+
+2020/Day04/Day04.i: 2020/Day04/Day04.cpp.i
+.PHONY : 2020/Day04/Day04.i
+
+# target to preprocess a source file
+2020/Day04/Day04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_04.dir/build.make CMakeFiles/2020_04.dir/2020/Day04/Day04.cpp.i
+.PHONY : 2020/Day04/Day04.cpp.i
+
+2020/Day04/Day04.s: 2020/Day04/Day04.cpp.s
+.PHONY : 2020/Day04/Day04.s
+
+# target to generate assembly for a file
+2020/Day04/Day04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2020_04.dir/build.make CMakeFiles/2020_04.dir/2020/Day04/Day04.cpp.s
+.PHONY : 2020/Day04/Day04.cpp.s
 
 2020/Day06/Day06.o: 2020/Day06/Day06.cpp.o
 .PHONY : 2020/Day06/Day06.o
@@ -1963,18 +2209,24 @@ help:
 	@echo "... 2016_03"
 	@echo "... 2017_01"
 	@echo "... 2017_02"
+	@echo "... 2017_03"
 	@echo "... 2017_04"
 	@echo "... 2017_05"
 	@echo "... 2017_09"
 	@echo "... 2017_11"
+	@echo "... 2017_20"
 	@echo "... 2018_01"
 	@echo "... 2018_02"
+	@echo "... 2018_03"
 	@echo "... 2018_05"
 	@echo "... 2019_01"
 	@echo "... 2019_02"
+	@echo "... 2019_03"
+	@echo "... 2019_04"
 	@echo "... 2020_01"
 	@echo "... 2020_02"
 	@echo "... 2020_03"
+	@echo "... 2020_04"
 	@echo "... 2020_06"
 	@echo "... 2020_12"
 	@echo "... 2020_12_2"
@@ -2044,6 +2296,9 @@ help:
 	@echo "... 2017/Day02/Day02.o"
 	@echo "... 2017/Day02/Day02.i"
 	@echo "... 2017/Day02/Day02.s"
+	@echo "... 2017/Day03/Day03.o"
+	@echo "... 2017/Day03/Day03.i"
+	@echo "... 2017/Day03/Day03.s"
 	@echo "... 2017/Day04/Day04.o"
 	@echo "... 2017/Day04/Day04.i"
 	@echo "... 2017/Day04/Day04.s"
@@ -2056,12 +2311,21 @@ help:
 	@echo "... 2017/Day11/Day11.o"
 	@echo "... 2017/Day11/Day11.i"
 	@echo "... 2017/Day11/Day11.s"
+	@echo "... 2017/Day11/main.o"
+	@echo "... 2017/Day11/main.i"
+	@echo "... 2017/Day11/main.s"
+	@echo "... 2017/Day20/Day20.o"
+	@echo "... 2017/Day20/Day20.i"
+	@echo "... 2017/Day20/Day20.s"
 	@echo "... 2018/Day01/Day01.o"
 	@echo "... 2018/Day01/Day01.i"
 	@echo "... 2018/Day01/Day01.s"
 	@echo "... 2018/Day02/Day02.o"
 	@echo "... 2018/Day02/Day02.i"
 	@echo "... 2018/Day02/Day02.s"
+	@echo "... 2018/Day03/Day03.o"
+	@echo "... 2018/Day03/Day03.i"
+	@echo "... 2018/Day03/Day03.s"
 	@echo "... 2018/Day05/Day05.o"
 	@echo "... 2018/Day05/Day05.i"
 	@echo "... 2018/Day05/Day05.s"
@@ -2071,6 +2335,12 @@ help:
 	@echo "... 2019/Day02/Day02.o"
 	@echo "... 2019/Day02/Day02.i"
 	@echo "... 2019/Day02/Day02.s"
+	@echo "... 2019/Day03/Day03.o"
+	@echo "... 2019/Day03/Day03.i"
+	@echo "... 2019/Day03/Day03.s"
+	@echo "... 2019/Day04/Day04.o"
+	@echo "... 2019/Day04/Day04.i"
+	@echo "... 2019/Day04/Day04.s"
 	@echo "... 2020/Day01/Day01.o"
 	@echo "... 2020/Day01/Day01.i"
 	@echo "... 2020/Day01/Day01.s"
@@ -2080,6 +2350,9 @@ help:
 	@echo "... 2020/Day03/Day03.o"
 	@echo "... 2020/Day03/Day03.i"
 	@echo "... 2020/Day03/Day03.s"
+	@echo "... 2020/Day04/Day04.o"
+	@echo "... 2020/Day04/Day04.i"
+	@echo "... 2020/Day04/Day04.s"
 	@echo "... 2020/Day06/Day06.o"
 	@echo "... 2020/Day06/Day06.i"
 	@echo "... 2020/Day06/Day06.s"
